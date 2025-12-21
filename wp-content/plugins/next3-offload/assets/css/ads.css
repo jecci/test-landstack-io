@@ -1,0 +1,13 @@
+
+/* Notices css start here*/
+.themedevnotices { display: block; background-position: center center; background-attachment: scroll; background-origin: border-box; background-size: cover; background-repeat: no-repeat; min-height: 100px; position: relative; z-index: 99; border-left: 0px; padding: 10px; background-color: #ccc; }
+
+.themedevnotices:before { content: ""; background-color: #150707a8; position: absolute; top: 0px; bottom: auto; width: 100%; height: 100%; color: #fff; margin: 0px; padding: 0px; z-index: -1; left: 0; right: 0; }
+
+.themedevnotices > * { color: #fff; text-align: center; }
+
+.themedevnotices .nxheading-notices > * { color: #fff; font-size: 20px; text-decoration: none; }
+
+.themedevnotices .nxdetails-notices { font-size: 13px; color: #fff; }
+
+.themedevnotices .nxdetails-notices a { color: #0ea7e4; font-size: 16px; font-weight: bold; text-decoration: underline; }

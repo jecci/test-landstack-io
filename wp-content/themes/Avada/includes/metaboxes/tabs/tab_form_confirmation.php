@@ -1,0 +1,91 @@
+<?php
+/**
+ * Form Submissions Metabox options.
+ *
+ * @author     ThemeFusion
+ * @copyright  (c) Copyright by ThemeFusion
+ * @link       https://avada.com
+ * @package    fusion-builder
+ * @subpackage forms
+ */
+
+/**
+ * Form Submissions page settings
+ *
+ * @param array $sections An array of our sections.
+ * @return array
+ */
+function avada_page_options_tab_form_confirmation( $sections ) {
+	$sections['form_confirmation'] = [
+		'label'    => esc_html__( 'Confirmation', 'Avada' ),
+		'alt_icon' => 'fusiona-confirmation',
+		'id'       => 'form_confirmation',
+		'fields'   => [
+			'form_confirmation_type' => [
+				'type'        => 'multiple_select',
+				'label'       => esc_html__( 'Form Confirmation Type', 'fusion-builder' ),
+				'description' => esc_html__( 'Select what should happen after the form is submitted successfully.', 'fusion-builder' ),
+				'id'          => 'form_confirmation_type',
+				'default'     => 'message',
+				'choices'     => [
+					'message'  => esc_html__( 'Display Message', 'fusion-builder' ),
+					'redirect' => esc_html__( 'Redirect To URL', 'fusion-builder' ),
+				],
+				'dependency'  => [],
+				'transport'   => 'postMessage',
+				'events'      => [
+					'fusion-render-form-notices',
+				],
+			],
+			'messages'               => [
+				'type'        => 'custom',
+				'label'       => '',
+				'description' => '<div class="fusion-redux-important-notice">' . __( '<strong>IMPORTANT NOTE:</strong> Use the <strong>Notice Element</strong> in the Form Builder to display confirmation notices for your form upon submission.', 'fusion-builder' ) . '</div>',
+				'id'          => 'messages',
+				'dependency'  => [
+					[
+						'field'      => 'form_confirmation_type',
+						'value'      => 'message',
+						'comparison' => 'contains',
+					],
+				],
+			],
+			'redirect_url'           => [
+				'type'        => 'text',
+				'label'       => esc_html__( 'Redirect URL', 'fusion-builder' ),
+				'description' => esc_html__( 'Enter the URL which the user should be redirected to after a successful submission.', 'fusion-builder' ),
+				'id'          => 'redirect_url',
+				'transport'   => 'postMessage',
+				'dependency'  => [
+					[
+						'field'      => 'form_confirmation_type',
+						'value'      => 'redirect',
+						'comparison' => 'contains',
+					],
+				],
+			],
+			'redirect_timeout' => [
+				'type'        => 'slider',
+				'label'       => esc_html__( 'Redirect After', 'fusion-builder' ),
+				'description' => esc_html__( 'Set a timeout before the redirect takes place. In milliseconds.', 'fusion-builder' ),
+				'id'          => 'redirect_timeout',
+				'transport'   => 'postMessage',
+				'default'     => '0',
+				'choices'     => [
+					'step' => '100',
+					'min'  => '0',
+					'max'  => '5000',
+				],
+				'dependency'  => [
+					[
+						'field'      => 'form_confirmation_type',
+						'value'      => 'redirect',
+						'comparison' => 'contains',
+					],
+				],
+			],
+
+		],
+	];
+	return $sections;
+}

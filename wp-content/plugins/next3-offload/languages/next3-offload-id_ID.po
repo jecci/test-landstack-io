@@ -1,0 +1,1060 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next3 Offload Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 10:21+0000\n"
+"PO-Revision-Date: 2023-07-30 10:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: next3-offload"
+
+#: templates/step/license.php:11
+msgid " Buy Now"
+msgstr " Beli Sekarang"
+
+#: templates/step/license.php:8
+msgid " Product List"
+msgstr " Daftar Produk"
+
+#: templates/settings/include/export.php:70
+msgid "!Upload AWS"
+msgstr "!Unggah AWS"
+
+#: templates/settings/include/tools.php:105
+#, php-format
+msgid "% files has been offloaded, you can move to Local Storage again"
+msgstr "% file telah dibongkar, Anda dapat pindah ke Penyimpanan Lokal lagi"
+
+#: templates/settings/include/tools.php:103
+msgid "% Media files has been Local Server"
+msgstr "% File media telah menjadi Server Lokal"
+
+#: templates/settings/include/tools.php:114
+msgid "% Media files has been local storage, Paused!"
+msgstr "% File media telah menjadi penyimpanan lokal, Dijeda!"
+
+#: templates/settings/include/tools.php:34
+msgid "% Media files has been offloaded"
+msgstr "% Berkas media telah dibongkar"
+
+#: templates/settings/include/tools.php:32
+msgid "% media files needs to be offload"
+msgstr "% berkas media harus dibongkar"
+
+#: templates/settings/include/tools.php:55
+msgid "% media files needs to be offload, Paused!"
+msgstr "% file media perlu dibongkar, Dijeda!"
+
+#: templates/settings/include/tools.php:151
+#, php-format
+msgid "% offload files need to clean from local storage"
+msgstr "% file offload perlu dibersihkan dari penyimpanan lokal"
+
+#: templates/settings/include/tools.php:153
+#, php-format
+msgid "% offload files now!, you can remove files from local storage"
+msgstr ""
+"% bongkar berkas sekarang!, Anda dapat menghapus file dari penyimpanan lokal"
+
+#: templates/settings/include/tools.php:162
+msgid "% Offload files removed from local storage, Paused!"
+msgstr "% Membongkar file yang dihapus dari penyimpanan lokal, Dijeda!"
+
+#: templates/step/providers.php:91
+msgid "- Select once -"
+msgstr "- Pilih sekali -"
+
+#: functions.php:603
+msgctxt "Access control list of the file in bucket"
+msgid "Access"
+msgstr "Akses"
+
+#: functions.php:306
+msgid "Access Key"
+msgstr "Kunci Akses"
+
+#: functions.php:158
+msgid "Access Key ID"
+msgstr "ID Kunci Akses"
+
+#: modules/compatiblility.php:695
+msgid "Access:"
+msgstr "Akses:"
+
+#: utilities/admin.php:101 templates/settings/dashboard.php:18
+#: templates/settings/dashboard.php:58 templates/step/license.php:22
+msgid "Active License"
+msgstr "Lisensi Aktif"
+
+#: templates/settings/include/settings.php:217
+msgid "Add Object Version to Bucket Path"
+msgstr "Tambahkan Versi Objek ke Jalur Bucket"
+
+#: templates/settings/include/settings.php:164
+msgid "Add Prefix to Bucket Path"
+msgstr "Tambahkan Awalan ke Jalur Bucket"
+
+#: templates/settings/include/settings.php:198
+msgid "Add Year & Month to Bucket Path"
+msgstr "Tambahkan Tahun & Bulan ke Jalur Bucket"
+
+#: templates/settings/dashboard.php:83
+msgid "Add-ons"
+msgstr "Pengaya"
+
+#: templates/settings/dashboard.php:21
+msgid "Addons"
+msgstr "Addons"
+
+#: templates/settings/include/settings.php:292
+msgid "Advanced Options"
+msgstr "Opsi Lanjutan"
+
+#: templates/settings/include/export.php:69
+msgid "All"
+msgstr "Semua"
+
+#: templates/settings/include/delivery.php:134
+msgid ""
+"Always all offloaded media files by rewriting URL's from selected Delivery "
+"Provider."
+msgstr ""
+"Selalu semua file media yang dibongkar dengan menulis ulang URL dari "
+"Penyedia Pengiriman yang dipilih."
+
+#: functions.php:115
+msgid "Amazon CloudFront"
+msgstr "Amazon CloudFront"
+
+#: functions.php:97 functions.php:102
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: functions.php:375
+msgid "API Key - Storage"
+msgstr "Penyimpanan Kunci API"
+
+#: templates/step/license.php:6 templates/settings/include/active-pro.php:6
+msgid "At first go to "
+msgstr "Pada awalnya pergi ke "
+
+#: modules/compatiblility.php:840
+msgid "Author"
+msgstr "Penulis"
+
+#: templates/settings/include/export.php:14
+msgid "AWS Import process running..."
+msgstr "Proses Impor AWS berjalan..."
+
+#: templates/settings/include/tools.php:15
+msgid "AWS Upload process running..."
+msgstr "Proses Pengunggahan AWS berjalan..."
+
+#: templates/step/config.php:95
+msgid "Block All Public Access is disabled."
+msgstr "Blokir Semua Akses Publik Dinonaktifkan."
+
+#: templates/step/config.php:119
+msgid "Browse Existing Buckets"
+msgstr "Jelajahi Bucket yang Keluar"
+
+#: templates/step/config.php:70 templates/settings/include/settings.php:45
+msgid "Bucket"
+msgstr "Ember"
+
+#: functions.php:600
+msgctxt "Bucket name"
+msgid "Bucket"
+msgstr "Ember"
+
+#: modules/compatiblility.php:669 modules/compatiblility.php:748
+msgid "Bucket:"
+msgstr "Ember:"
+
+#: functions.php:325
+msgid "Bunny CDN"
+msgstr "Bunny CDN"
+
+#: functions.php:320
+msgid "Bunny Storage"
+msgstr "Penyimpanan Kelinci"
+
+#: templates/settings/include/addons.php:18
+msgid "Buy now"
+msgstr "Beli sekarang"
+
+#: utilities/admin.php:997
+msgid "Can't upload permission. Config your credentails first."
+msgstr ""
+"Tidak dapat mengunggah izin. Konfigurasikan kredensial Anda terlebih dahulu."
+
+#: templates/settings/include/tools.php:85
+#: templates/settings/include/tools.php:141
+#: templates/settings/include/tools.php:189
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: templates/settings/include/tools.php:187
+msgid "Clean Now"
+msgstr "Bersihkan Sekarang"
+
+#: templates/settings/include/tools.php:180
+msgid "Clean Offload files from Local Storage"
+msgstr "Bersihkan file Offload dari Penyimpanan Lokal"
+
+#: templates/step/license.php:9 templates/settings/include/active-pro.php:9
+msgid "Click licenses button and get license key after add your domain"
+msgstr ""
+"Klik tombol lisensi dan dapatkan kunci lisensi setelah menambahkan domain "
+"Anda"
+
+#: templates/settings/include/settings.php:253
+msgid "Click switch to multiple mime types support enabled."
+msgstr "Klik beralih ke dukungan beberapa jenis mime diaktifkan."
+
+#: templates/step/license.php:16
+msgid "Click to Revoke License. "
+msgstr "Klik untuk Mencabut Lisensi. "
+
+#: modules/compatiblility.php:786
+msgid "Click to update, automtic delete files from local server."
+msgstr "Klik untuk memperbarui, otomatis menghapus file dari server lokal."
+
+#: modules/compatiblility.php:772
+msgid "Click to update, copy it to the cloud (bucket)."
+msgstr "Klik untuk memperbarui, salin ke cloud (bucket)."
+
+#: templates/settings/include/tools.php:89
+#: templates/settings/include/tools.php:145
+msgid "Cloud Storage:"
+msgstr "Penyimpanan Cloud:"
+
+#: functions.php:107 functions.php:264
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: functions.php:139
+msgid "Code"
+msgstr "Kode"
+
+#: functions.php:218 functions.php:288 functions.php:358 functions.php:432
+msgid "Code:"
+msgstr "Kode:"
+
+#: templates/step/config.php:23
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#: templates/settings/include/settings.php:150
+msgid ""
+"Copies media files to the local server after being uploaded using Next3 File "
+"Manager."
+msgstr ""
+"Menyalin file media ke server lokal setelah diunggah menggunakan Pengelola "
+"File Next3."
+
+#: templates/settings/include/settings.php:130
+msgid ""
+"Copies media files to the storage provider after being uploaded, edited, or "
+"optimized."
+msgstr ""
+"Menyalin file media ke penyedia penyimpanan setelah diunggah, diedit, atau "
+"dioptimalkan."
+
+#: modules/compatiblility.php:824
+msgid "Copy file to Cloud"
+msgstr "Salin file ke Cloud"
+
+#: modules/compatiblility.php:768
+msgid "Copy files to Cloud (bucket):"
+msgstr "Salin file ke Cloud (bucket):"
+
+#: templates/step/license.php:10 templates/settings/include/active-pro.php:10
+msgid ""
+"Copy licenses key and paste key in license filed. Then click \"Active "
+"License\" Button"
+msgstr ""
+"Salin kunci lisensi dan tempel kunci dalam lisensi yang diajukan. Kemudian "
+"klik tombol \"Lisensi Aktif\" "
+
+#: templates/settings/include/settings.php:139
+msgid "Copy to Local Server"
+msgstr "Salin ke Server Lokal"
+
+#: templates/step/config.php:120
+msgid "Create new Bucket"
+msgstr "Buat Bucket baru"
+
+#: utilities/admin.php:763
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#: modules/compatiblility.php:841
+msgid "Date"
+msgstr "Tanggal"
+
+#: functions.php:133 functions.php:212 functions.php:282 functions.php:352
+#: functions.php:426
+msgid "Define access keys in wp-config.php"
+msgstr "Tentukan kunci akses di wp-config.php"
+
+#: templates/settings/include/settings.php:325
+msgid ""
+"Delete a file from the cloud (bucket) once it has been deleted from the "
+"local server (WP Media)."
+msgstr ""
+"Hapus file dari cloud (bucket) setelah dihapus dari server lokal (WP Media)."
+
+#: utilities/admin.php:91
+msgid "Delivery"
+msgstr "Pengiriman"
+
+#: templates/settings/dashboard.php:11 templates/settings/dashboard.php:50
+msgid "Delivery Settings"
+msgstr "Pengaturan Pengiriman"
+
+#: functions.php:174 functions.php:180
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean Spaces"
+
+#: functions.php:194
+msgid "DigitalOcean Spaces CDN"
+msgstr "DigitalOcean Spaces CDN"
+
+#: templates/step/config.php:90
+msgid "Disable \"Block All Public Access\""
+msgstr "Nonaktifkan \"Blokir Semua Akses Publik\""
+
+#: templates/settings/include/settings.php:228
+msgid ""
+"Ensures the latest version of a media item gets delivered by adding a unique "
+"timestamp to the bucket path."
+msgstr ""
+"Memastikan versi terbaru item media dikirimkan dengan menambahkan stempel "
+"waktu unik ke jalur bucket."
+
+#: modules/providers/bunny/action.php:233
+#: modules/providers/bunny/action.php:373
+#: modules/providers/bunny/action.php:404
+msgid "Error!! provider connection not established."
+msgstr "Galat!! koneksi penyedia tidak dibuat."
+
+#: utilities/admin.php:971
+#, php-format
+msgid "Every %d Seconds"
+msgstr "Setiap  %d  Detik"
+
+#: templates/settings/include/export.php:48
+#: templates/settings/include/export.php:74
+msgid "Export"
+msgstr "Ekspor"
+
+#: templates/settings/dashboard.php:13
+msgid "Export & Import"
+msgstr "Ekspor & Impor"
+
+#: templates/settings/dashboard.php:74
+msgid "Export & Import Media"
+msgstr "Media Ekspor & Impor"
+
+#: templates/settings/include/export.php:26
+msgid "Export all AWS S3 files to must be select Bucket."
+msgstr "Ekspor semua file AWS S3 ke Bucket must be select."
+
+#: templates/settings/include/export.php:61
+msgid ""
+"Export all WP Media files to must be select Type(All media, Already Uploaded "
+"to AWS, Not upload to AWS)."
+msgstr ""
+"Ekspor semua file Media WP ke must be select Type (Semua media, Sudah "
+"Diunggah ke AWS, Bukan diunggah ke AWS)."
+
+#: templates/settings/include/export.php:24
+msgid "Export media [AWS]"
+msgstr ""
+
+#: templates/settings/include/export.php:59
+msgid "Export media [WP]"
+msgstr ""
+
+#: templates/settings/dashboard.php:84
+msgid ""
+"Extra Addons of Next3 Plugins. You can use for extra features to extend "
+"Next3 Offload."
+msgstr ""
+"Tambahan Tambahan dari Plugin Next3. Anda dapat menggunakan fitur tambahan "
+"untuk memperpanjang Offload Next3."
+
+#: utilities/admin.php:772
+msgid "Features"
+msgstr "Fitur"
+
+#: templates/settings/include/settings.php:239
+msgid "File Management"
+msgstr "Manajemen Berkas"
+
+#: templates/amazon/file-manager.php:3 templates/settings/dashboard.php:32
+msgid "File Manager"
+msgstr "Manajer Berkas"
+
+#: utilities/admin.php:86
+msgid "File manager"
+msgstr "Manajer berkas"
+
+#: templates/settings/include/delivery.php:123
+msgid "Force CDN Delivery"
+msgstr "Paksa Pengiriman CDN"
+
+#: templates/settings/include/delivery.php:103
+msgid "Force HTTPS"
+msgstr "Paksa HTTPS"
+
+#: templates/settings/include/settings.php:306
+msgid ""
+"Frees up storage space by deleting local media files after they have been "
+"offloaded."
+msgstr ""
+"Mengosongkan ruang penyimpanan dengan menghapus file media lokal setelah "
+"dibongkar."
+
+#: functions.php:408
+msgid "GCP Cloud CDN"
+msgstr "GCP Cloud CDN"
+
+#: templates/settings/include/delivery.php:81
+#: templates/settings/include/settings.php:116
+msgid "General Options"
+msgstr "Opsi Umum"
+
+#: templates/step/license.php:8 templates/settings/include/active-pro.php:8
+msgid "Go to Products page "
+msgstr "Buka halaman Produk "
+
+#: functions.php:398 functions.php:403
+msgid "Google Cloud Storage"
+msgstr "Penyimpanan Cloud Google"
+
+#: templates/settings/include/settings.php:176
+msgid ""
+"Groups media from this site together by using a common prefix in the bucket "
+"path of offloaded media files."
+msgstr ""
+"Kelompokkan media dari situs ini bersama-sama dengan menggunakan awalan umum "
+"di jalur bucket file media yang dibongkar."
+
+#. Author URI of the plugin
+msgid "https://themedev.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themedev.net/next3-offload/"
+msgstr ""
+
+#: functions.php:152 functions.php:230 functions.php:300 functions.php:369
+#: functions.php:443
+msgid ""
+"I understand, it has risks but I'd like to store access keys in the database "
+"(not recommended)"
+msgstr ""
+"Saya mengerti, ini memiliki risiko tetapi saya ingin menyimpan kunci akses "
+"di database (tidak disarankan)"
+
+#: templates/step/license.php:11
+msgid ""
+"If don't have any license key, Just buy click now button and collect license "
+"key."
+msgstr ""
+"Jika tidak memiliki kunci lisensi apa pun, Cukup beli tombol klik sekarang "
+"dan kumpulkan kunci lisensi."
+
+#: templates/step/config.php:89
+msgid ""
+"If you're not planning on using Amazon CloudFront for delivery, you need to "
+"<strong>Disabled Block All Public Access</strong>."
+msgstr ""
+
+#: templates/settings/include/export.php:110
+msgid "Import"
+msgstr "Impor"
+
+#: templates/settings/include/export.php:86
+msgid "Import files [AWS]"
+msgstr ""
+
+#: templates/settings/include/tools.php:95
+msgid "Individual Offload Existing Media"
+msgstr "Media Keluar Muatan Individu"
+
+#: modules/providers/bunny/action.php:359
+msgid "Invalid File Path."
+msgstr "Jalur Berkas tidak Valid."
+
+#: functions.php:449
+msgid "JSON Data"
+msgstr "Data JSON"
+
+#: modules/proactive/init.php:16
+msgid "Key is empty"
+msgstr "Kunci kosong"
+
+#: functions.php:185
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#: templates/settings/dashboard.php:23
+msgid "Live Demos"
+msgstr "Demo Langsung"
+
+#: templates/settings/include/tools.php:90
+#: templates/settings/include/tools.php:144
+msgid "Local Storage:"
+msgstr "Penyimpanan Lokal:"
+
+#: functions.php:602
+msgctxt "Location of bucket"
+msgid "Region"
+msgstr "Wilayah"
+
+#: templates/step/license.php:7
+msgid "Login"
+msgstr "Login"
+
+#: templates/step/license.php:7 templates/settings/include/active-pro.php:7
+msgid "Login your account "
+msgstr "Masuk ke akun Anda "
+
+#. Description of the plugin
+msgid ""
+"Make your WordPress blazing fast by offloading your files to AWS S3 | "
+"DigitalOcean Spaces | Google Cloud Storage."
+msgstr ""
+
+#: modules/compatiblility.php:826
+msgid "Move file to WP Media"
+msgstr "Pindahkan berkas ke WP Media"
+
+#: templates/settings/include/tools.php:139
+msgid "Move Now"
+msgstr "Pindah Sekarang"
+
+#: templates/settings/include/tools.php:132
+msgid "Move Offload Media to Local Storage"
+msgstr "Pindahkan Media Offload ke Penyimpanan Lokal"
+
+#: templates/amazon/file-manager.php:5
+msgid "New Folder"
+msgstr "Folder Baru"
+
+#: utilities/admin.php:67 utilities/admin.php:68
+msgid "Next3 Offload"
+msgstr "Selanjutnya3 Offload"
+
+#. Name of the plugin
+msgid "Next3 Offload Media"
+msgstr "Next3 Melepas Media"
+
+#: utilities/admin.php:787
+#, php-format
+msgid ""
+"Next3 Offload requires PHP version %1$s+, which is currently NOT RUNNING on "
+"this server."
+msgstr ""
+"Offload Next3 memerlukan PHP versi %1$s+, yang saat ini TIDAK BERJALAN di "
+"server ini."
+
+#: templates/settings/dashboard.php:30
+msgid "Next3 Panel"
+msgstr "Next3 Panel"
+
+#: templates/setup.php:2
+msgid "Next3 Setup"
+msgstr "Pengaturan Next3"
+
+#: functions.php:594
+msgid "No"
+msgstr "Tidak ada"
+
+#: modules/providers/aws/action.php:165 modules/providers/aws/action.php:193
+#: modules/providers/aws/action.php:234 modules/providers/aws/action.php:267
+#: modules/providers/aws/action.php:319 modules/providers/aws/action.php:396
+#: modules/providers/aws/action.php:430 modules/providers/aws/action.php:482
+#: modules/providers/bunny/action.php:168
+#: modules/providers/bunny/action.php:192
+#: modules/providers/bunny/action.php:206
+#: modules/providers/bunny/action.php:224
+#: modules/providers/bunny/action.php:388
+#: modules/providers/bunny/action.php:423
+#: modules/providers/digital/action.php:163
+#: modules/providers/digital/action.php:191
+#: modules/providers/digital/action.php:228
+#: modules/providers/digital/action.php:261
+#: modules/providers/digital/action.php:313
+#: modules/providers/digital/action.php:390
+#: modules/providers/digital/action.php:424
+#: modules/providers/digital/action.php:476
+#: modules/providers/wasabi/action.php:167
+#: modules/providers/wasabi/action.php:194
+#: modules/providers/wasabi/action.php:230
+#: modules/providers/wasabi/action.php:263
+#: modules/providers/wasabi/action.php:315
+#: modules/providers/wasabi/action.php:392
+#: modules/providers/wasabi/action.php:426
+#: modules/providers/wasabi/action.php:478
+msgid "No bucket name provided."
+msgstr "Tidak ada nama bucket yang disediakan."
+
+#: modules/providers/bunny/action.php:353
+msgid "No Storage name provided."
+msgstr "Tidak ada nama Penyimpanan yang disediakan."
+
+#: templates/settings/include/export.php:8
+msgid "Not found any media..."
+msgstr "Tidak ditemukan media apapun..."
+
+#: utilities/admin.php:1016
+msgid "Not found any process"
+msgstr "Tidak ditemukan proses apapun"
+
+#: modules/compatiblility.php:610 modules/compatiblility.php:621
+msgid "Offload - Next3"
+msgstr "Offload-Next3"
+
+#: templates/settings/include/tools.php:192
+msgid "Offload files:"
+msgstr "Melepas berkas:"
+
+#: templates/settings/include/settings.php:119
+msgid "Offload Media"
+msgstr "Offload Media"
+
+#: templates/settings/include/tools.php:83
+msgid "Offload Now"
+msgstr "Bongkar Sekarang"
+
+#: templates/settings/include/tools.php:98
+msgid "Offload now!"
+msgstr "Bongkar sekarang!"
+
+#: utilities/admin.php:1020
+msgid "Offload process has been pause"
+msgstr "Proses pembongkaran telah dihentikan sementara"
+
+#: templates/settings/include/settings.php:334
+msgid "Offload Settings"
+msgstr "Pengaturan Offload"
+
+#: templates/settings/include/tools.php:76
+msgid "Offload your Existing Media Library"
+msgstr "Bongkar Perpustakaan Media Anda yang Ada"
+
+#: templates/settings/include/settings.php:242
+msgid "Offload {multiple mime types} format to cloud"
+msgstr ""
+
+#: functions.php:123 functions.php:202 functions.php:272 functions.php:342
+#: functions.php:417
+msgid "Other"
+msgstr "Lainnya"
+
+#: functions.php:601
+msgctxt "Path to file in bucket"
+msgid "Path"
+msgstr "Jalur"
+
+#: modules/compatiblility.php:678
+msgid "Path:"
+msgstr "Jalur:"
+
+#: utilities/admin.php:386
+msgid "Please activate your license."
+msgstr "Silakan aktifkan lisensi Anda!"
+
+#: templates/settings/dashboard.php:34
+msgid "Please active your license "
+msgstr "Harap aktifkan lisensi Anda "
+
+#: utilities/admin.php:406
+msgid "Please choose prodiver and enter valid credentails."
+msgstr "Silakan pilih prodiver dan masukkan kredensial yang valid."
+
+#: templates/settings/include/tools.php:12
+msgid "Please select any buckets..."
+msgstr "Silakan pilih bucket mana saja..."
+
+#: templates/settings/include/export.php:5
+msgid "Please select buckets..."
+msgstr "Silahkan pilih bucket..."
+
+#: templates/settings/include/export.php:11
+msgid "Please select type for export media..."
+msgstr "Silahkan pilih jenis untuk media ekspor..."
+
+#: functions.php:604 templates/settings/include/settings.php:79
+msgid "Preview URL"
+msgstr "URL Pratinjau"
+
+#: modules/compatiblility.php:757
+msgid "Preview:"
+msgstr "Pratinjau:"
+
+#: templates/step/config.php:31 templates/settings/include/settings.php:33
+msgid "Provider"
+msgstr "Penyedia"
+
+#: modules/compatiblility.php:838
+msgid "Provider Info"
+msgstr "Info Penyedia"
+
+#: templates/settings/include/settings.php:209
+msgid ""
+"Provides another level of organization within the bucket by including the "
+"year & month in which the file was uploaded to the site."
+msgstr ""
+"Menyediakan tingkat organisasi lain di dalam bucket dengan menyertakan tahun "
+"& bulan saat file diunggah ke situs."
+
+#: templates/step/config.php:53 templates/step/config.php:127
+msgid "Region"
+msgstr "Wilayah"
+
+#: modules/compatiblility.php:660 modules/compatiblility.php:739
+msgid "Region:"
+msgstr "Wilayah:"
+
+#: templates/step/config.php:96
+msgid "Remove all Files from this Bucket"
+msgstr "Hapus semua File dari Bucket ini"
+
+#: templates/settings/include/settings.php:314
+msgid "Remove Files from Cloud"
+msgstr "Menghapus File dari Cloud"
+
+#: modules/compatiblility.php:783
+msgid "Remove Files From Server:"
+msgstr "Menghapus File dari server:"
+
+#: templates/settings/include/settings.php:295
+msgid "Remove Local Media"
+msgstr "Hapus Media Lokal"
+
+#: templates/settings/include/tools.php:201
+#: templates/settings/include/tools.php:210
+msgid "Reset"
+msgstr "Setel ulang"
+
+#: templates/settings/include/tools.php:198
+msgid "Reset Credentials"
+msgstr "Setel Ulang Kredensial"
+
+#: templates/settings/include/tools.php:207
+msgid "Reset Settings"
+msgstr "Setel Ulang Pengaturan"
+
+#: templates/settings/include/delivery.php:84
+msgid "Rewrite Media URLs or Deliver Offloaded Media"
+msgstr "Tulis ulang URL Media atau Kirimkan Media yang Dibongkar"
+
+#: templates/step/config.php:121
+msgid "Save Bucket Settings"
+msgstr "Simpan Pengaturan Bucket"
+
+#: templates/step/config.php:166 templates/settings/include/delivery.php:147
+#: templates/settings/include/settings.php:373
+msgid "Save Settings"
+msgstr "Simpan Pengaturan"
+
+#: functions.php:163
+msgid "Secret Access Key"
+msgstr "Kunci Akses Rahasia"
+
+#: functions.php:241 functions.php:311
+msgid "Secret Key"
+msgstr "Kunci Rahasia"
+
+#: templates/settings/include/export.php:88
+msgid "Select [.json] file to upload into AWS S3 Bucket."
+msgstr ""
+
+#: templates/settings/include/export.php:36
+#: templates/settings/include/export.php:99
+msgid "Select any bucket"
+msgstr "Pilih bucket apa saja"
+
+#: templates/settings/include/settings.php:262
+msgid "Select Files Extension"
+msgstr "Pilih Ekstensi File"
+
+#: templates/settings/include/delivery.php:22
+msgid "Select Provider"
+msgstr "Pilih Penyedia"
+
+#: templates/settings/include/export.php:68
+msgid "Select Type"
+msgstr "Pilih Jenis"
+
+#: templates/settings/include/delivery.php:95
+msgid ""
+"Serves offloaded media files by rewriting local URLs so that they point to "
+"Cloud"
+msgstr ""
+"Menyajikan file media yang dibongkar dengan menulis ulang URL lokal sehingga "
+"mengarah ke Cloud"
+
+#: templates/settings/include/settings.php:360
+msgid "Set up number of Paged"
+msgstr "Mengatur jumlah Paged"
+
+#: utilities/admin.php:80 utilities/admin.php:761
+msgid "Setup"
+msgstr "Pengaturan"
+
+#: templates/settings/include/settings.php:161
+msgid "Setup Path"
+msgstr "Jalur Penyiapan"
+
+#: templates/settings/include/settings.php:346
+msgid "Setup your offload limit. [Max value: 20,000]"
+msgstr ""
+
+#: utilities/check/valid.php:39
+msgid "Something went wrong"
+msgstr "Ada yang tidak beres"
+
+#: templates/step/config.php:175
+msgid "Sorry! your credentails is wrong."
+msgstr "Maaf! kredensimu salah."
+
+#: utilities/admin.php:414
+msgid "Error! Access keys in wp-config.php are not defined."
+msgstr "Maaf!! tidak menentukan kunci akses di wp-config.php"
+
+#: utilities/admin.php:423
+msgid "Error! .json file path is not defined."
+msgstr "Maaf!! tolong definisikan diri Anda .jalur berkas json"
+
+#: utilities/admin.php:431 utilities/admin.php:460
+msgid "Error! Bunny CDN API key or password is missing."
+msgstr "Maaf!! silakan masukkan Kunci atau Kata Sandi Bunny API."
+
+#: utilities/admin.php:452
+msgid "Error! .json file path is not defined."
+msgstr "Maaf!! silakan masukkan data json"
+
+#: utilities/admin.php:469
+msgid "Sorry!! please enter your credentails data"
+msgstr "Maaf!! silakan masukkan data kredensial Anda"
+
+#: utilities/admin.php:440
+msgid "Sorry!! please enter your valid credentails."
+msgstr "Maaf!! silakan masukkan kredensial Anda yang valid."
+
+#: utilities/admin.php:990
+msgid "Sorry!!! please active license"
+msgstr "Maaf!!! silakan lisensi aktif"
+
+#: utilities/admin.php:985
+msgid "Sorry!!! Trial mode enable"
+msgstr "Maaf!!! Mode uji coba diaktifkan"
+
+#: functions.php:236
+msgid "Spaces Access Key"
+msgstr "Kunci Akses Spaces"
+
+#: utilities/admin.php:486
+msgid "Your bucket and region are not defined."
+msgstr "Siapkan Ember dan Wilayah Anda"
+
+#: utilities/admin.php:491
+msgid "Your storage and region are not defined."
+msgstr "Steup Penyimpanan dan Wilayah Anda"
+
+#: utilities/admin.php:90 templates/step/config.php:145
+msgid "Storage"
+msgstr "Penyimpanan"
+
+#: templates/settings/include/settings.php:62
+msgid "Storage Name"
+msgstr "Nama Penyimpanan"
+
+#: functions.php:598
+msgctxt "Storage provider key name"
+msgid "Storage Provider"
+msgstr "Penyedia Penyimpanan"
+
+#: functions.php:599
+msgctxt "Storage provider name"
+msgid "Storage Provider"
+msgstr "Penyedia Penyimpanan"
+
+#: modules/compatiblility.php:653 modules/compatiblility.php:731
+msgid "Storage Provider:"
+msgstr "Penyedia Penyimpanan:"
+
+#: templates/settings/dashboard.php:10 templates/settings/dashboard.php:43
+msgid "Storage Settings"
+msgstr "Pengaturan Penyimpanan"
+
+#: functions.php:154 functions.php:232 functions.php:302 functions.php:371
+#: functions.php:445
+msgid ""
+"Storing your access keys in the database is less secure than the options "
+"above, but if you're ok with that, go ahead and enter your keys in the form "
+"below."
+msgstr ""
+"Menyimpan kunci akses Anda di database kurang aman dibandingkan opsi di atas,"
+" tetapi jika Anda setuju, lanjutkan dan masukkan kunci Anda dalam formulir "
+"di bawah ini."
+
+#: modules/providers/bunny/action.php:239
+msgid "Successfully Deleted this file"
+msgstr "Berhasil Menghapus file ini"
+
+#: templates/settings/include/tools.php:9
+msgid "Successfully reset credentials..."
+msgstr "Berhasil mengatur ulang kredensial..."
+
+#: templates/settings/include/tools.php:6
+msgid "Successfully reset plugin settings..."
+msgstr "Berhasil mengatur ulang pengaturan plugin..."
+
+#: utilities/admin.php:774
+msgid "Support"
+msgstr "Dukungan"
+
+#. Author of the plugin
+msgid "ThemeDev"
+msgstr "ThemeDev"
+
+#: templates/step/license.php:6
+msgid "ThemeDev Account"
+msgstr "Akun ThemeDev"
+
+#: modules/providers/aws/action.php:182 modules/providers/bunny/action.php:182
+#: modules/providers/digital/action.php:180
+#: modules/providers/wasabi/action.php:183
+#, php-format
+msgid ""
+"There was an error attempting to check the permissions of the bucket %s: %s"
+msgstr "Ada galat saat mencoba memeriksa izin bucket %s: %s"
+
+#: modules/providers/aws/action.php:178 modules/providers/bunny/action.php:177
+#: modules/providers/digital/action.php:176
+#: modules/providers/wasabi/action.php:179
+msgid ""
+"This is a test file to check if the user has write permission to the bucket. "
+"Delete me if found."
+msgstr ""
+"Ini adalah file pengujian untuk memeriksa apakah pengguna memiliki izin "
+"menulis ke bucket. Hapus saya jika ditemukan."
+
+#: templates/step/license.php:16
+msgid "This license work only for 10 days."
+msgstr "Lisensi ini hanya berfungsi selama 10 hari."
+
+#: templates/settings/include/tools.php:209
+msgid "This tool will delete all the plugin settings of Next3 Offload"
+msgstr "Alat ini akan menghapus semua pengaturan plugin Offload Next3"
+
+#: templates/settings/include/tools.php:200
+msgid "This tool will remove provider credentials of Next3 Offload"
+msgstr "Alat ini akan menghapus kredensial penyedia Offload Next3"
+
+#: utilities/admin.php:95 templates/settings/dashboard.php:12
+#: templates/settings/dashboard.php:66
+msgid "Tools"
+msgstr "Alat"
+
+#: templates/settings/dashboard.php:35
+msgid "Trial Mode is enabled. You can only view it on Trial Mode."
+msgstr "Mode Uji Coba Diaktifkan. Hanya Anda yang dapat melihat mode."
+
+#: templates/settings/include/tools.php:193
+msgid "Unclean files:"
+msgstr "File yang tidak bersih:"
+
+#: templates/amazon/file-manager.php:4
+msgid "Upload File"
+msgstr "Unggah Berkas"
+
+#: templates/settings/include/export.php:71
+msgid "Uploaded AWS"
+msgstr "Diunggah AWS"
+
+#: modules/compatiblility.php:839
+msgid "Uploaded to"
+msgstr "Diunggah ke"
+
+#: modules/compatiblility.php:687
+msgid "Uploaded via:"
+msgstr "Diunggah melalui:"
+
+#: utilities/admin.php:773
+msgid "User Guideline"
+msgstr "Pedoman Pengguna"
+
+#: templates/settings/include/delivery.php:114
+msgid ""
+"Uses HTTPS for every offloaded media item instead of using the scheme of the "
+"current page."
+msgstr ""
+"Menggunakan HTTPS untuk setiap item media yang dibongkar alih-alih "
+"menggunakan skema halaman saat ini."
+
+#: templates/settings/dashboard.php:30
+msgid "Version: "
+msgstr "Versi: "
+
+#: functions.php:250 functions.php:256
+msgid "Wasabi Cloud"
+msgstr "Wasabi Cloud"
+
+#: templates/settings/include/settings.php:82
+msgid ""
+"When a media URL is rewritten, it will use the following structure based on "
+"the current Storage and Delivery Settings:"
+msgstr ""
+"Saat URL media ditulis ulang, URL tersebut akan menggunakan struktur berikut "
+"berdasarkan Pengaturan Penyimpanan dan Pengiriman saat ini:"
+
+#: functions.php:605
+msgctxt "Whether or not metadata has been verified"
+msgid "Verified"
+msgstr "Diverifikasi"
+
+#: templates/settings/include/tools.php:18
+msgid "WP Upload process running..."
+msgstr "Proses Pengunggahan WP berjalan..."
+
+#: templates/step/config.php:88
+msgid "Warning: Block All Public Access setting is currently enabled."
+msgstr "Wraning: Blokir Semua Akses Publik saat ini diaktifkan."
+
+#: utilities/admin.php:499
+msgid ""
+"Warning: Block All Public Access setting is currently enabled. Need to permission, "
+"first!"
+msgstr ""
+"Wraning: Blokir Semua Akses Publik saat ini diaktifkan. Perlu izin, dulu!"
+
+#: utilities/admin.php:507
+msgid ""
+"Wraning: File upload permission disabled. Please change bucket or Manual "
+"give to permission login with Provider panel."
+msgstr ""
+"Wraning: Izin unggah file dinonaktifkan. Harap ubah bucket atau Manual "
+"berikan izin masuk dengan panel Penyedia."
+
+#: templates/settings/include/tools.php:97
+msgid ""
+"You should have options to offload your existing media, both individually or "
+"multiple."
+msgstr ""
+"Anda harus memiliki opsi untuk melepas media yang ada, baik satu per satu "
+"atau beberapa."

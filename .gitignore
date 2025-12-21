@@ -1,0 +1,12 @@
+# WordPress core junk
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Secrets
+wp-config.php
+.htaccess
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Purchase Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            font-size: 20px;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .remove-btn {
+            background-color: #f44336;
+        }
+        .remove-btn:hover {
+            background-color: #d32f2f;
+        }
+        .summary, .targetsum {
+            margin: 20px 10px 0px; 
+            padding: 10px 20px; 
+            background-color: #fbf6eb; 
+            border-radius: 10px; 
+            border: 1px solid #ccc;
+        }
+        #totalShares, #totalCost, #averageCost { 
+            font-weight: bold;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .input-group label {
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+        .input-group input {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Purchase Calculator</h1>
+        <table id="purchaseTable">
+            <thead>
+                <tr>
+                    <th>Shares</th>
+                    <th>Price per Share</th>
+                    <th>Total Cost</th>
+                    <th>% Difference</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="purchaseTableBody">
+                <!-- Rows will be added here dynamically -->
+            </tbody>
+        </table>
+        <button onclick="addRow()">Add Row</button>
+        <div class="summary">
+            <p>Total Shares: <span id="totalShares"></span></p>
+            <p>Total Cost: <span style="color: #999;">$</span> <span id="totalCost"></span></p>
+            <p>Average Cost per Share: <span style="color: #999;">$</span> <span id="averageCost"></span></p>
+        </div>
+        <div class="targetsum">
+            <div class="input-group">
+                <label for="targetAverage">Target Average Cost: $</label>
+                <input type="number" id="targetAverage" value="1.50" step="0.01" onchange="updateCalculations()">
+            </div>
+            <div class="input-group">
+                <label for="totalBudget">Total Budget: $</label>
+                <input type="number" id="totalBudget" value="1000" step="0.01" onchange="updateCalculations()">
+            </div>
+        </div>
+        <div id="requiredPurchase" class="summary"></div>
+    </div>
+
+    <script>
+        let purchases = [
+            { shares: 20, price: 2.00 },
+            { shares: 10, price: 1.80 },
+            { shares: 20, price: 1.50 },
+            { shares: 10, price: 1.25 }
+        ];
+
+        function formatNumber(number, decimals = 2) {
+            return number.toLocaleString('en-US', {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            });
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('purchaseTableBody');
+            tbody.innerHTML = '';
+            purchases.forEach((purchase, index) => {
+                const row = tbody.insertRow();
+                row.innerHTML = `
+                    <td><input type="number" value="${purchase.shares}" onchange="updatePurchase(${index}, 'shares', this.value)"></td>
+                    <td><input type="number" value="${purchase.price.toFixed(2)}" step="0.01" onchange="updatePurchase(${index}, 'price', this.value)"></td>
+                    <td>$${formatNumber(purchase.shares * purchase.price)}</td>
+                    <td>${calculatePercentageDifference(index)}</td>
+                    <td><button class="remove-btn" onclick="removeRow(${index})">Remove</button></td>
+                `;
+            });
+        }
+
+        function calculatePercentageDifference(index) {
+            if (index === 0) return '-';
+            const currentPrice = purchases[index].price;
+            const previousPrice = purchases[index - 1].price;
+            return formatNumber((currentPrice - previousPrice) / previousPrice * 100) + '%';
+        }
+
+        function addRow() {
+            purchases.push({ shares: 0, price: 0 });
+            renderTable();
+            updateCalculations();
+        }
+
+        function removeRow(index) {
+            purchases.splice(index, 1);
+            renderTable();
+            updateCalculations();
+        }
+
+        function updatePurchase(index, field, value) {
+            purchases[index][field] = parseFloat(value) || 0;
+            renderTable();
+            updateCalculations();
+        }
+
+        function updateCalculations() {
+            const { totalShares, totalCost, averageCost } = calculateTotals();
+            document.getElementById('totalShares').textContent = formatNumber(totalShares, 0);
+            document.getElementById('totalCost').textContent = formatNumber(totalCost);
+            document.getElementById('averageCost').textContent = formatNumber(averageCost);
+
+            const targetAverage = parseFloat(document.getElementById('targetAverage').value) || 0;
+            const totalBudget = parseFloat(document.getElementById('totalBudget').value) || 0;
+            const requiredPurchase = calculateRequiredPurchase(totalShares, totalCost, averageCost, targetAverage);
+            const budgetPurchase = calculateBudgetPurchase(totalBudget, averageCost);
+            
+            document.getElementById('requiredPurchase').innerHTML = `
+                <p>To reach target average of $${formatNumber(targetAverage)}, you need to buy:</p>
+                <p>${formatNumber(requiredPurchase.shares, 0)} shares at $${formatNumber(requiredPurchase.price)} per share</p>
+                <p>With your budget of $${formatNumber(totalBudget)}, you can buy:</p>
+                <p>${formatNumber(budgetPurchase.shares, 0)} shares at $${formatNumber(budgetPurchase.price)} per share</p>
+            `;
+        }
+
+        function calculateTotals() {
+            let totalShares = 0;
+            let totalCost = 0;
+            purchases.forEach(purchase => {
+                totalShares += purchase.shares;
+                totalCost += purchase.shares * purchase.price;
+            });
+            const averageCost = totalCost / totalShares || 0;
+            return { totalShares, totalCost, averageCost };
+        }
+
+        function calculateRequiredPurchase(totalShares, totalCost, averageCost, targetAverage) {
+            if (averageCost <= targetAverage) return { shares: 0, price: 0 };
+            
+            let sharesToBuy = 1;
+            let pricePerShare = 0;
+            
+            while (true) {
+                pricePerShare = (targetAverage * (totalShares + sharesToBuy) - totalCost) / sharesToBuy;
+                if (pricePerShare > 0) break;
+                sharesToBuy++;
+            }
+            
+            return { shares: Math.ceil(sharesToBuy), price: pricePerShare };
+        }
+
+        function calculateBudgetPurchase(totalBudget, averageCost) {
+            const shares = Math.floor(totalBudget / averageCost);
+            const price = averageCost;
+            return { shares, price };
+        }
+
+        // Initial render
+        renderTable();
+        updateCalculations();
+    </script>
+</body>
+</html>

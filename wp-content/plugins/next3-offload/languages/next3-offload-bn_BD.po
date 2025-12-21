@@ -1,0 +1,1061 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next3 Offload Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 10:21+0000\n"
+"PO-Revision-Date: 2023-07-30 10:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bengali (Bangladesh)\n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: next3-offload"
+
+#: templates/step/license.php:11
+msgid " Buy Now"
+msgstr " এখন কিনতে"
+
+#: templates/step/license.php:8
+msgid " Product List"
+msgstr " পণ্য তালিকা"
+
+#: templates/settings/include/export.php:70
+msgid "!Upload AWS"
+msgstr "!তারিখ ডেস্কটপ অ্যাপ উন্মোচন"
+
+#: templates/settings/include/tools.php:105
+#, php-format
+msgid "% files has been offloaded, you can move to Local Storage again"
+msgstr ""
+"% ফাইল করা হয়েছে offloaded, আপনি স্থানান্তর করতে পারেন, স্থানীয় সংগ্রহস্থল,"
+" আবার"
+
+#: templates/settings/include/tools.php:103
+msgid "% Media files has been Local Server"
+msgstr "% মিডিয়া ফাইল করা হয়েছে, স্থানীয় সার্ভার"
+
+#: templates/settings/include/tools.php:114
+msgid "% Media files has been local storage, Paused!"
+msgstr "% মিডিয়া ফাইল করা হয়েছে, স্থানীয় সংগ্রহস্থল, বিরাম দেওয়া!"
+
+#: templates/settings/include/tools.php:34
+msgid "% Media files has been offloaded"
+msgstr "% মিডিয়া ফাইল করা হয়েছে offloaded"
+
+#: templates/settings/include/tools.php:32
+msgid "% media files needs to be offload"
+msgstr "% মিডিয়া ফাইল করা প্রয়োজন অফলোড"
+
+#: templates/settings/include/tools.php:55
+msgid "% media files needs to be offload, Paused!"
+msgstr "% মিডিয়া ফাইল করা প্রয়োজন অফলোড, বিরাম দেওয়া!"
+
+#: templates/settings/include/tools.php:151
+#, php-format
+msgid "% offload files need to clean from local storage"
+msgstr "% অফ-লোড ফাইল পরিষ্কার করা প্রয়োজন থেকে স্থানীয় সংগ্রহস্থল"
+
+#: templates/settings/include/tools.php:153
+#, php-format
+msgid "% offload files now!, you can remove files from local storage"
+msgstr ""
+"% অফ-লোড ফাইল এখন!, আপনি অপসারণ করতে পারেন ফাইল থেকে স্থানীয় সংগ্রহস্থল"
+
+#: templates/settings/include/tools.php:162
+msgid "% Offload files removed from local storage, Paused!"
+msgstr "% অফ-লোড ফাইল থেকে মুছে ফেলা, স্থানীয় সংগ্রহস্থল, বিরাম দেওয়া!"
+
+#: templates/step/providers.php:91
+msgid "- Select once -"
+msgstr "- নির্বাচন করুন, একবার -"
+
+#: functions.php:603
+msgctxt "Access control list of the file in bucket"
+msgid "Access"
+msgstr "অ্যাক্সেস"
+
+#: functions.php:306
+msgid "Access Key"
+msgstr "অ্যাক্সেস কী"
+
+#: functions.php:158
+msgid "Access Key ID"
+msgstr "অ্যাক্সেস কী আইডি"
+
+#: modules/compatiblility.php:695
+msgid "Access:"
+msgstr "অ্যাক্সেস:"
+
+#: utilities/admin.php:101 templates/settings/dashboard.php:18
+#: templates/settings/dashboard.php:58 templates/step/license.php:22
+msgid "Active License"
+msgstr "সক্রিয় লাইসেন্স"
+
+#: templates/settings/include/settings.php:217
+msgid "Add Object Version to Bucket Path"
+msgstr "যোগ বস্তুর সংস্করণ থেকে বালতি পথ"
+
+#: templates/settings/include/settings.php:164
+msgid "Add Prefix to Bucket Path"
+msgstr "যোগ উপসর্গ থেকে বালতি পথ"
+
+#: templates/settings/include/settings.php:198
+msgid "Add Year & Month to Bucket Path"
+msgstr "Add বছর ও মাস থেকে বালতি পথ"
+
+#: templates/settings/dashboard.php:83
+msgid "Add-ons"
+msgstr "অ্যাড-অন"
+
+#: templates/settings/dashboard.php:21
+msgid "Addons"
+msgstr "অ্যাডঅনস"
+
+#: templates/settings/include/settings.php:292
+msgid "Advanced Options"
+msgstr "উন্নত বিকল্প"
+
+#: templates/settings/include/export.php:69
+msgid "All"
+msgstr "সব"
+
+#: templates/settings/include/delivery.php:134
+msgid ""
+"Always all offloaded media files by rewriting URL's from selected Delivery "
+"Provider."
+msgstr ""
+"সবসময় সব offloaded মিডিয়া দ্বারা ফাইল rewriting URL এর থেকে নির্বাচিত "
+"ডেলিভারি প্রদানকারী."
+
+#: functions.php:115
+msgid "Amazon CloudFront"
+msgstr "আমাজন CloudFront"
+
+#: functions.php:97 functions.php:102
+msgid "Amazon S3"
+msgstr "ইসলাম S3"
+
+#: functions.php:375
+msgid "API Key - Storage"
+msgstr "এপিআই কী - স্টোরেজ"
+
+#: templates/step/license.php:6 templates/settings/include/active-pro.php:6
+msgid "At first go to "
+msgstr "প্রথমে যান "
+
+#: modules/compatiblility.php:840
+msgid "Author"
+msgstr "লেখক"
+
+#: templates/settings/include/export.php:14
+msgid "AWS Import process running..."
+msgstr "ডেস্কটপ অ্যাপ উন্মোচন আমদানি প্রক্রিয়া চলমান..."
+
+#: templates/settings/include/tools.php:15
+msgid "AWS Upload process running..."
+msgstr "ডেস্কটপ অ্যাপ উন্মোচন আপলোড প্রক্রিয়া চলমান..."
+
+#: templates/step/config.php:95
+msgid "Block All Public Access is disabled."
+msgstr "ব্লক সব পাবলিক এক্সেস নিষ্ক্রিয়."
+
+#: templates/step/config.php:119
+msgid "Browse Existing Buckets"
+msgstr "ব্রাউজ প্রস্থান Buckets"
+
+#: templates/step/config.php:70 templates/settings/include/settings.php:45
+msgid "Bucket"
+msgstr "বালতি"
+
+#: functions.php:600
+msgctxt "Bucket name"
+msgid "Bucket"
+msgstr "বালতি"
+
+#: modules/compatiblility.php:669 modules/compatiblility.php:748
+msgid "Bucket:"
+msgstr "বালতি:"
+
+#: functions.php:325
+msgid "Bunny CDN"
+msgstr "শশ যা CDN"
+
+#: functions.php:320
+msgid "Bunny Storage"
+msgstr "শশ স্টোরেজ"
+
+#: templates/settings/include/addons.php:18
+msgid "Buy now"
+msgstr "এখন কিনতে"
+
+#: utilities/admin.php:997
+msgid "Can't upload permission. Config your credentails first."
+msgstr "না করতে পারেন, তারিখ অনুমতি. কনফিগ আপনার credentails প্রথম."
+
+#: templates/settings/include/tools.php:85
+#: templates/settings/include/tools.php:141
+#: templates/settings/include/tools.php:189
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: templates/settings/include/tools.php:187
+msgid "Clean Now"
+msgstr "এখন পরিষ্কার"
+
+#: templates/settings/include/tools.php:180
+msgid "Clean Offload files from Local Storage"
+msgstr "পরিষ্কার অফলোড ফাইল থেকে স্থানীয় সংগ্রহস্থল"
+
+#: templates/step/license.php:9 templates/settings/include/active-pro.php:9
+msgid "Click licenses button and get license key after add your domain"
+msgstr "ক্লিক করুন লাইসেন্স বাটন এবং লাইসেন্স কী পরে, আপনার ডোমেন যোগ করুন"
+
+#: templates/settings/include/settings.php:253
+msgid "Click switch to multiple mime types support enabled."
+msgstr "ক্লিক সুইচ করতে একাধিক mime ধরনের সমর্থন সক্রিয়."
+
+#: templates/step/license.php:16
+msgid "Click to Revoke License. "
+msgstr "দেখার জন্য ক্লিক করুন প্রত্যাহার করার লাইসেন্স. "
+
+#: modules/compatiblility.php:786
+msgid "Click to update, automtic delete files from local server."
+msgstr ""
+"দেখার জন্য ক্লিক করুন আপডেট করার জন্য, automtic মুছে দিন ফাইল থেকে স্থানীয় "
+"সার্ভার."
+
+#: modules/compatiblility.php:772
+msgid "Click to update, copy it to the cloud (bucket)."
+msgstr "দেখার জন্য ক্লিক করুন আপডেট করার জন্য এটি কপি করে মেঘ (বালতি)."
+
+#: templates/settings/include/tools.php:89
+#: templates/settings/include/tools.php:145
+msgid "Cloud Storage:"
+msgstr "মেঘ স্টোরেজ:"
+
+#: functions.php:107 functions.php:264
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: functions.php:139
+msgid "Code"
+msgstr "কোড"
+
+#: functions.php:218 functions.php:288 functions.php:358 functions.php:432
+msgid "Code:"
+msgstr "কোড:"
+
+#: templates/step/config.php:23
+msgid "Configuration"
+msgstr "কনফিগারেশন"
+
+#: templates/settings/include/settings.php:150
+msgid ""
+"Copies media files to the local server after being uploaded using Next3 File "
+"Manager."
+msgstr ""
+"কপি মিডিয়া ফাইল জন্য স্থানীয় সার্ভার হওয়ার পর আপলোড করে Next3 ফাইল "
+"ম্যানেজার."
+
+#: templates/settings/include/settings.php:130
+msgid ""
+"Copies media files to the storage provider after being uploaded, edited, or "
+"optimized."
+msgstr ""
+"কপি মিডিয়া থেকে ফাইল স্টোরেজ প্রদানকারী হওয়ার পর আপলোড, সম্পাদনা, বা "
+"অনুকূল."
+
+#: modules/compatiblility.php:824
+msgid "Copy file to Cloud"
+msgstr "ফাইল কপি করার জন্য মেঘ"
+
+#: modules/compatiblility.php:768
+msgid "Copy files to Cloud (bucket):"
+msgstr "থেকে ফাইল কপি করুন মেঘ (বালতি):"
+
+#: templates/step/license.php:10 templates/settings/include/active-pro.php:10
+msgid ""
+"Copy licenses key and paste key in license filed. Then click \"Active "
+"License\" Button"
+msgstr ""
+"কপি লাইসেন্স কী এবং পেস্ট কী লাইসেন্স দায়ের করেন. তারপর ক্লিক করুন "
+"\"সক্রিয় লাইসেন্স\" বাটন"
+
+#: templates/settings/include/settings.php:139
+msgid "Copy to Local Server"
+msgstr "কপি করতে স্থানীয় সার্ভার"
+
+#: templates/step/config.php:120
+msgid "Create new Bucket"
+msgstr "নতুন তৈরি বালতি"
+
+#: utilities/admin.php:763
+msgid "Dashboard"
+msgstr "ড্যাশবোর্ড"
+
+#: modules/compatiblility.php:841
+msgid "Date"
+msgstr "আপলোড"
+
+#: functions.php:133 functions.php:212 functions.php:282 functions.php:352
+#: functions.php:426
+msgid "Define access keys in wp-config.php"
+msgstr "নির্ধারণ অ্যাক্সেস কী wp-config.php"
+
+#: templates/settings/include/settings.php:325
+msgid ""
+"Delete a file from the cloud (bucket) once it has been deleted from the "
+"local server (WP Media)."
+msgstr ""
+"একটি ফাইল মুছে দিন থেকে মেঘ (বালতি) একবার এটা মুছে ফেলা হয়েছে থেকে স্থানীয় "
+"সার্ভার (ডাব্লু মিডিয়া)."
+
+#: utilities/admin.php:91
+msgid "Delivery"
+msgstr "বিতরণ"
+
+#: templates/settings/dashboard.php:11 templates/settings/dashboard.php:50
+msgid "Delivery Settings"
+msgstr "ডেলিভারি সেটিংস"
+
+#: functions.php:174 functions.php:180
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean স্পেস"
+
+#: functions.php:194
+msgid "DigitalOcean Spaces CDN"
+msgstr "DigitalOcean স্পেস যা CDN"
+
+#: templates/step/config.php:90
+msgid "Disable \"Block All Public Access\""
+msgstr "নিষ্ক্রিয় \"ব্লক সব পাবলিক এক্সেস\""
+
+#: templates/settings/include/settings.php:228
+msgid ""
+"Ensures the latest version of a media item gets delivered by adding a unique "
+"timestamp to the bucket path."
+msgstr ""
+"নিশ্চিত সর্বশেষ সংস্করণ একটি মিডিয়া আইটেম বিতরণ পরার যোগ করে একটি অনন্য "
+"টাইমস্ট্যাম্প থেকে বালতি পথ."
+
+#: modules/providers/bunny/action.php:233
+#: modules/providers/bunny/action.php:373
+#: modules/providers/bunny/action.php:404
+msgid "Error!! provider connection not established."
+msgstr "ত্রুটি!! প্রদানকারী সংযোগ প্রতিষ্ঠিত না."
+
+#: utilities/admin.php:971
+#, php-format
+msgid "Every %d Seconds"
+msgstr "প্রতি %d সেকেন্ড"
+
+#: templates/settings/include/export.php:48
+#: templates/settings/include/export.php:74
+msgid "Export"
+msgstr "রপ্তানি"
+
+#: templates/settings/dashboard.php:13
+msgid "Export & Import"
+msgstr "রপ্তানি এবং আমদানি"
+
+#: templates/settings/dashboard.php:74
+msgid "Export & Import Media"
+msgstr "রপ্তানি ও আমদানি মিডিয়া"
+
+#: templates/settings/include/export.php:26
+msgid "Export all AWS S3 files to must be select Bucket."
+msgstr "রপ্তানি সব ডেস্কটপ অ্যাপ উন্মোচন S3 ফাইল করতে হবে নির্বাচন বালতি."
+
+#: templates/settings/include/export.php:61
+msgid ""
+"Export all WP Media files to must be select Type(All media, Already Uploaded "
+"to AWS, Not upload to AWS)."
+msgstr ""
+"রপ্তানি সব ডাব্লু মিডিয়া ফাইল করতে হবে নির্বাচন করুন(সমস্ত, মিডিয়া, "
+"ইতিমধ্যে আপলোড করা হয়েছে ডেস্কটপ অ্যাপ উন্মোচন না, তারিখ থেকে ডেস্কটপ অ্যাপ "
+"উন্মোচন)."
+
+#: templates/settings/include/export.php:24
+msgid "Export media [AWS]"
+msgstr ""
+
+#: templates/settings/include/export.php:59
+msgid "Export media [WP]"
+msgstr ""
+
+#: templates/settings/dashboard.php:84
+msgid ""
+"Extra Addons of Next3 Plugins. You can use for extra features to extend "
+"Next3 Offload."
+msgstr ""
+"অতিরিক্ত অ্যাডঅনস এর Next3 প্লাগিন. আপনি ব্যবহার করতে পারেন জন্য অতিরিক্ত "
+"বৈশিষ্ট্য প্রসারিত করতে Next3 অফলোড."
+
+#: utilities/admin.php:772
+msgid "Features"
+msgstr "বৈশিষ্ট্য"
+
+#: templates/settings/include/settings.php:239
+msgid "File Management"
+msgstr "ফাইল ব্যবস্থাপনা"
+
+#: templates/amazon/file-manager.php:3 templates/settings/dashboard.php:32
+msgid "File Manager"
+msgstr "ফাইল ম্যানেজার"
+
+#: utilities/admin.php:86
+msgid "File manager"
+msgstr "ফাইল ম্যানেজার"
+
+#: templates/settings/include/delivery.php:123
+msgid "Force CDN Delivery"
+msgstr "বল, যা CDN বিতরণ"
+
+#: templates/settings/include/delivery.php:103
+msgid "Force HTTPS"
+msgstr "বল HTTPS"
+
+#: templates/settings/include/settings.php:306
+msgid ""
+"Frees up storage space by deleting local media files after they have been "
+"offloaded."
+msgstr ""
+"মুক্ত স্টোরেজ স্পেস দ্বারা মুছে ফেলা হচ্ছে স্থানীয় মিডিয়া ফাইল পরে তারা "
+"হয়েছে offloaded."
+
+#: functions.php:408
+msgid "GCP Cloud CDN"
+msgstr "GCP মেঘ যা CDN"
+
+#: templates/settings/include/delivery.php:81
+#: templates/settings/include/settings.php:116
+msgid "General Options"
+msgstr "সাধারণ অপশন"
+
+#: templates/step/license.php:8 templates/settings/include/active-pro.php:8
+msgid "Go to Products page "
+msgstr "যান পণ্য পৃষ্ঠা "
+
+#: functions.php:398 functions.php:403
+msgid "Google Cloud Storage"
+msgstr "Google মেঘ সংগ্রহস্থল"
+
+#: templates/settings/include/settings.php:176
+msgid ""
+"Groups media from this site together by using a common prefix in the bucket "
+"path of offloaded media files."
+msgstr ""
+"দলের মিডিয়া এই সাইট থেকে একসাথে ব্যবহার করে একটি সাধারণ উপসর্গ বালতি পথ "
+"offloaded মিডিয়া ফাইল."
+
+#. Author URI of the plugin
+msgid "https://themedev.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themedev.net/next3-offload/"
+msgstr ""
+
+#: functions.php:152 functions.php:230 functions.php:300 functions.php:369
+#: functions.php:443
+msgid ""
+"I understand, it has risks but I'd like to store access keys in the database "
+"(not recommended)"
+msgstr ""
+"আমি বুঝতে পারছি, এটা ঝুঁকি আছে, কিন্তু আমি করতে চাই, দোকান অ্যাক্সেস কী "
+"ডাটাবেসের মধ্যে (প্রস্তাবিত নয়)"
+
+#: templates/step/license.php:11
+msgid ""
+"If don't have any license key, Just buy click now button and collect license "
+"key."
+msgstr ""
+"যদি না থাকে, কোন লাইসেন্স কী শুধু কিনতে ক্লিক করুন, এখন বাটন সংগ্রহ করে এবং "
+"লাইসেন্স কী."
+
+#: templates/step/config.php:89
+msgid ""
+"If you're not planning on using Amazon CloudFront for delivery, you need to "
+"<strong>Disabled Block All Public Access</strong>."
+msgstr ""
+
+#: templates/settings/include/export.php:110
+msgid "Import"
+msgstr "আমদানি"
+
+#: templates/settings/include/export.php:86
+msgid "Import files [AWS]"
+msgstr ""
+
+#: templates/settings/include/tools.php:95
+msgid "Individual Offload Existing Media"
+msgstr "পৃথক অফলোড থেকে প্রস্থান মিডিয়া"
+
+#: modules/providers/bunny/action.php:359
+msgid "Invalid File Path."
+msgstr "অবৈধ ফাইল পাথ."
+
+#: functions.php:449
+msgid "JSON Data"
+msgstr "JSON তথ্য"
+
+#: modules/proactive/init.php:16
+msgid "Key is empty"
+msgstr "কী হয় খালি"
+
+#: functions.php:185
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#: templates/settings/dashboard.php:23
+msgid "Live Demos"
+msgstr "লাইভ গণদেবতা"
+
+#: templates/settings/include/tools.php:90
+#: templates/settings/include/tools.php:144
+msgid "Local Storage:"
+msgstr "স্থানীয় সংগ্রহস্থল:"
+
+#: functions.php:602
+msgctxt "Location of bucket"
+msgid "Region"
+msgstr "অঞ্চল"
+
+#: templates/step/license.php:7
+msgid "Login"
+msgstr "লগইন"
+
+#: templates/step/license.php:7 templates/settings/include/active-pro.php:7
+msgid "Login your account "
+msgstr "লগইন আপনার অ্যাকাউন্ট "
+
+#. Description of the plugin
+msgid ""
+"Make your WordPress blazing fast by offloading your files to AWS S3 | "
+"DigitalOcean Spaces | Google Cloud Storage."
+msgstr ""
+
+#: modules/compatiblility.php:826
+msgid "Move file to WP Media"
+msgstr "ফাইল স্থানান্তর করার জন্য ডাব্লু মিডিয়া"
+
+#: templates/settings/include/tools.php:139
+msgid "Move Now"
+msgstr "এখন সরানো"
+
+#: templates/settings/include/tools.php:132
+msgid "Move Offload Media to Local Storage"
+msgstr "সরানো অফলোড মিডিয়া, স্থানীয় সংগ্রহস্থল"
+
+#: templates/amazon/file-manager.php:5
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: utilities/admin.php:67 utilities/admin.php:68
+msgid "Next3 Offload"
+msgstr "Next3 অফলোড"
+
+#. Name of the plugin
+msgid "Next3 Offload Media"
+msgstr "Next3 অফলোড মিডিয়া"
+
+#: utilities/admin.php:787
+#, php-format
+msgid ""
+"Next3 Offload requires PHP version %1$s+, which is currently NOT RUNNING on "
+"this server."
+msgstr ""
+"Next3 অফলোড প্রয়োজন PHP সংস্করণ %1$s+, যা বর্তমানে চলমান না এই সার্ভারে."
+
+#: templates/settings/dashboard.php:30
+msgid "Next3 Panel"
+msgstr "Next3 প্যানেল"
+
+#: templates/setup.php:2
+msgid "Next3 Setup"
+msgstr "Next3 সেটআপ"
+
+#: functions.php:594
+msgid "No"
+msgstr "কোন"
+
+#: modules/providers/aws/action.php:165 modules/providers/aws/action.php:193
+#: modules/providers/aws/action.php:234 modules/providers/aws/action.php:267
+#: modules/providers/aws/action.php:319 modules/providers/aws/action.php:396
+#: modules/providers/aws/action.php:430 modules/providers/aws/action.php:482
+#: modules/providers/bunny/action.php:168
+#: modules/providers/bunny/action.php:192
+#: modules/providers/bunny/action.php:206
+#: modules/providers/bunny/action.php:224
+#: modules/providers/bunny/action.php:388
+#: modules/providers/bunny/action.php:423
+#: modules/providers/digital/action.php:163
+#: modules/providers/digital/action.php:191
+#: modules/providers/digital/action.php:228
+#: modules/providers/digital/action.php:261
+#: modules/providers/digital/action.php:313
+#: modules/providers/digital/action.php:390
+#: modules/providers/digital/action.php:424
+#: modules/providers/digital/action.php:476
+#: modules/providers/wasabi/action.php:167
+#: modules/providers/wasabi/action.php:194
+#: modules/providers/wasabi/action.php:230
+#: modules/providers/wasabi/action.php:263
+#: modules/providers/wasabi/action.php:315
+#: modules/providers/wasabi/action.php:392
+#: modules/providers/wasabi/action.php:426
+#: modules/providers/wasabi/action.php:478
+msgid "No bucket name provided."
+msgstr "কোন বালতি নাম দেওয়া."
+
+#: modules/providers/bunny/action.php:353
+msgid "No Storage name provided."
+msgstr "কোন স্টোরেজ নাম দেওয়া."
+
+#: templates/settings/include/export.php:8
+msgid "Not found any media..."
+msgstr "পাওয়া যায় না কোন মিডিয়া..."
+
+#: utilities/admin.php:1016
+msgid "Not found any process"
+msgstr "পাওয়া যায় না কোন প্রক্রিয়া"
+
+#: modules/compatiblility.php:610 modules/compatiblility.php:621
+msgid "Offload - Next3"
+msgstr "অফলোড - Next3"
+
+#: templates/settings/include/tools.php:192
+msgid "Offload files:"
+msgstr "অফলোড ফাইল:"
+
+#: templates/settings/include/settings.php:119
+msgid "Offload Media"
+msgstr "অফলোড মিডিয়া"
+
+#: templates/settings/include/tools.php:83
+msgid "Offload Now"
+msgstr "অফলোড এখন"
+
+#: templates/settings/include/tools.php:98
+msgid "Offload now!"
+msgstr "অফলোড এখন!"
+
+#: utilities/admin.php:1020
+msgid "Offload process has been pause"
+msgstr "অফলোড প্রক্রিয়া করা হয়েছে বিরতি"
+
+#: templates/settings/include/settings.php:334
+msgid "Offload Settings"
+msgstr "অফলোড সেটিংস"
+
+#: templates/settings/include/tools.php:76
+msgid "Offload your Existing Media Library"
+msgstr "অফলোড আপনার বিদ্যমান মিডিয়া লাইব্রেরি"
+
+#: templates/settings/include/settings.php:242
+msgid "Offload {multiple mime types} format to cloud"
+msgstr ""
+
+#: functions.php:123 functions.php:202 functions.php:272 functions.php:342
+#: functions.php:417
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: functions.php:601
+msgctxt "Path to file in bucket"
+msgid "Path"
+msgstr "পথ"
+
+#: modules/compatiblility.php:678
+msgid "Path:"
+msgstr "পাথ:"
+
+#: utilities/admin.php:386
+msgid "Please activate your license."
+msgstr "সক্রিয় করুন আপনার লাইসেন্স!"
+
+#: templates/settings/dashboard.php:34
+msgid "Please active your license "
+msgstr "দয়া করে আপনার লাইসেন্স সক্রিয় "
+
+#: utilities/admin.php:406
+msgid "Please choose prodiver and enter valid credentails."
+msgstr "দয়া করে নির্বাচন করুন prodiver এবং লিখতে বৈধ credentails."
+
+#: templates/settings/include/tools.php:12
+msgid "Please select any buckets..."
+msgstr "নির্বাচন করুন কোন বাকেট..."
+
+#: templates/settings/include/export.php:5
+msgid "Please select buckets..."
+msgstr "দয়া করে নির্বাচন করুন, buckets..."
+
+#: templates/settings/include/export.php:11
+msgid "Please select type for export media..."
+msgstr "দয়া করে নির্বাচন করুন টাইপ জন্য রপ্তানি মিডিয়া..."
+
+#: functions.php:604 templates/settings/include/settings.php:79
+msgid "Preview URL"
+msgstr "সম্পূর্ণ বিবরণের পূর্বরূপ দেখুন URL টি"
+
+#: modules/compatiblility.php:757
+msgid "Preview:"
+msgstr "সম্পূর্ণ বিবরণের পূর্বরূপ দেখুন:"
+
+#: templates/step/config.php:31 templates/settings/include/settings.php:33
+msgid "Provider"
+msgstr "প্রদানকারী"
+
+#: modules/compatiblility.php:838
+msgid "Provider Info"
+msgstr "প্রদানকারী তথ্য"
+
+#: templates/settings/include/settings.php:209
+msgid ""
+"Provides another level of organization within the bucket by including the "
+"year & month in which the file was uploaded to the site."
+msgstr ""
+"উপলব্ধ অন্য মাত্রা প্রতিষ্ঠানের মধ্যে বালতি সহ দ্বারা এই বছর ও মাস যার মধ্যে "
+"ফাইল আপলোড করা হয় নি সাইট."
+
+#: templates/step/config.php:53 templates/step/config.php:127
+msgid "Region"
+msgstr "অঞ্চল"
+
+#: modules/compatiblility.php:660 modules/compatiblility.php:739
+msgid "Region:"
+msgstr "অঞ্চল:"
+
+#: templates/step/config.php:96
+msgid "Remove all Files from this Bucket"
+msgstr "দূর থেকে সব ফাইল এই বালতি"
+
+#: templates/settings/include/settings.php:314
+msgid "Remove Files from Cloud"
+msgstr "দূর থেকে ফাইল মেঘ"
+
+#: modules/compatiblility.php:783
+msgid "Remove Files From Server:"
+msgstr "দূর থেকে ফাইল সার্ভার:"
+
+#: templates/settings/include/settings.php:295
+msgid "Remove Local Media"
+msgstr "অপসারণ স্থানীয় মিডিয়া"
+
+#: templates/settings/include/tools.php:201
+#: templates/settings/include/tools.php:210
+msgid "Reset"
+msgstr "রিসেট"
+
+#: templates/settings/include/tools.php:198
+msgid "Reset Credentials"
+msgstr "রিসেট পরিচয়পত্র"
+
+#: templates/settings/include/tools.php:207
+msgid "Reset Settings"
+msgstr "রিসেট সেটিংস"
+
+#: templates/settings/include/delivery.php:84
+msgid "Rewrite Media URLs or Deliver Offloaded Media"
+msgstr "পুনর্লিখন মিডিয়া Url গুলি বা প্রদান করা Offloaded মিডিয়া"
+
+#: templates/step/config.php:121
+msgid "Save Bucket Settings"
+msgstr "সংরক্ষণ বালতি সেটিংস"
+
+#: templates/step/config.php:166 templates/settings/include/delivery.php:147
+#: templates/settings/include/settings.php:373
+msgid "Save Settings"
+msgstr "সেটিংস সংরক্ষণ করুন"
+
+#: functions.php:163
+msgid "Secret Access Key"
+msgstr "সিক্রেট অ্যাক্সেস কী"
+
+#: functions.php:241 functions.php:311
+msgid "Secret Key"
+msgstr "গোপন কী"
+
+#: templates/settings/include/export.php:88
+msgid "Select [.json] file to upload into AWS S3 Bucket."
+msgstr ""
+
+#: templates/settings/include/export.php:36
+#: templates/settings/include/export.php:99
+msgid "Select any bucket"
+msgstr "নির্বাচন কোন বালতি"
+
+#: templates/settings/include/settings.php:262
+msgid "Select Files Extension"
+msgstr "নির্বাচন করুন ফাইল এক্সটেনশন"
+
+#: templates/settings/include/delivery.php:22
+msgid "Select Provider"
+msgstr "নির্বাচন প্রদানকারী"
+
+#: templates/settings/include/export.php:68
+msgid "Select Type"
+msgstr "টাইপ নির্বাচন করুন"
+
+#: templates/settings/include/delivery.php:95
+msgid ""
+"Serves offloaded media files by rewriting local URLs so that they point to "
+"Cloud"
+msgstr ""
+"কাজ করে offloaded মিডিয়া ফাইল rewriting দ্বারা স্থানীয় Url গুলি, যাতে তারা "
+"বিন্দু থেকে মেঘ"
+
+#: templates/settings/include/settings.php:360
+msgid "Set up number of Paged"
+msgstr "সেট আপ সংখ্যা পেজড"
+
+#: utilities/admin.php:80 utilities/admin.php:761
+msgid "Setup"
+msgstr "সেটআপ"
+
+#: templates/settings/include/settings.php:161
+msgid "Setup Path"
+msgstr "সেটআপ পথ"
+
+#: templates/settings/include/settings.php:346
+msgid "Setup your offload limit. [Max value: 20,000]"
+msgstr ""
+
+#: utilities/check/valid.php:39
+msgid "Something went wrong"
+msgstr "কিছু ভুল"
+
+#: templates/step/config.php:175
+msgid "Sorry! your credentails is wrong."
+msgstr "দুঃখিত! আপনার credentails ভুল হয়."
+
+#: utilities/admin.php:414
+msgid "Error! Access keys in wp-config.php are not defined."
+msgstr "দুঃখিত,!! সংজ্ঞায়িত না, অ্যাক্সেস কী wp-config.php"
+
+#: utilities/admin.php:423
+msgid "Error! .json file path is not defined."
+msgstr "দুঃখিত,!! দয়া করে আপনি নির্ধারণ .json ফাইল পাথ"
+
+#: utilities/admin.php:431 utilities/admin.php:460
+msgid "Error! Bunny CDN API key or password is missing."
+msgstr "দুঃখিত,!! প্রবেশ করুন Bunny API কী বা পাসওয়ার্ড."
+
+#: utilities/admin.php:452
+msgid "Error! .json file path is not defined."
+msgstr "দুঃখিত,!! দয়া করে লিখুন json তথ্য"
+
+#: utilities/admin.php:469
+msgid "Sorry!! please enter your credentails data"
+msgstr "দুঃখিত,!! দয়া করে প্রবেশ করুন আপনার তথ্য credentails"
+
+#: utilities/admin.php:440
+msgid "Sorry!! please enter your valid credentails."
+msgstr "দুঃখিত,!! দয়া করে প্রবেশ করুন আপনার বৈধ credentails."
+
+#: utilities/admin.php:990
+msgid "Sorry!!! please active license"
+msgstr "দুঃখিত,!!! দয়া করে সক্রিয় লাইসেন্স"
+
+#: utilities/admin.php:985
+msgid "Sorry!!! Trial mode enable"
+msgstr "দুঃখিত,!!! ট্রায়াল মোড সক্রিয়"
+
+#: functions.php:236
+msgid "Spaces Access Key"
+msgstr "স্পেস অ্যাক্সেস কী"
+
+#: utilities/admin.php:486
+msgid "Your bucket and region are not defined."
+msgstr "Steup আপনার বালতি এবং অঞ্চলের"
+
+#: utilities/admin.php:491
+msgid "Your storage and region are not defined."
+msgstr "Steup আপনার স্টোরেজ এবং অঞ্চলের"
+
+#: utilities/admin.php:90 templates/step/config.php:145
+msgid "Storage"
+msgstr "স্টোরেজ"
+
+#: templates/settings/include/settings.php:62
+msgid "Storage Name"
+msgstr "স্টোরেজ নাম"
+
+#: functions.php:598
+msgctxt "Storage provider key name"
+msgid "Storage Provider"
+msgstr "স্টোরেজ প্রদানকারী"
+
+#: functions.php:599
+msgctxt "Storage provider name"
+msgid "Storage Provider"
+msgstr "স্টোরেজ প্রদানকারী"
+
+#: modules/compatiblility.php:653 modules/compatiblility.php:731
+msgid "Storage Provider:"
+msgstr "স্টোরেজ প্রদানকারী:"
+
+#: templates/settings/dashboard.php:10 templates/settings/dashboard.php:43
+msgid "Storage Settings"
+msgstr "স্টোরেজ সেটিংস"
+
+#: functions.php:154 functions.php:232 functions.php:302 functions.php:371
+#: functions.php:445
+msgid ""
+"Storing your access keys in the database is less secure than the options "
+"above, but if you're ok with that, go ahead and enter your keys in the form "
+"below."
+msgstr ""
+"সংরক্ষণ আপনার অ্যাক্সেস কী ডাটাবেসের মধ্যে কম হয়, নিরাপদ চেয়ে অপশন উপরে, "
+"কিন্তু আপনি ঠিক করে, এগিয়ে যান এবং লিখুন আপনার কি নিচের ফর্ম."
+
+#: modules/providers/bunny/action.php:239
+msgid "Successfully Deleted this file"
+msgstr "সফলভাবে এই ফাইল মুছে ফেলা"
+
+#: templates/settings/include/tools.php:9
+msgid "Successfully reset credentials..."
+msgstr "সফলভাবে রিসেট পরিচয়পত্র..."
+
+#: templates/settings/include/tools.php:6
+msgid "Successfully reset plugin settings..."
+msgstr "সফলভাবে প্লাগইন রিসেট সেটিংস..."
+
+#: utilities/admin.php:774
+msgid "Support"
+msgstr "সমর্থন"
+
+#. Author of the plugin
+msgid "ThemeDev"
+msgstr "ThemeDev"
+
+#: templates/step/license.php:6
+msgid "ThemeDev Account"
+msgstr "ThemeDev অ্যাকাউন্ট"
+
+#: modules/providers/aws/action.php:182 modules/providers/bunny/action.php:182
+#: modules/providers/digital/action.php:180
+#: modules/providers/wasabi/action.php:183
+#, php-format
+msgid ""
+"There was an error attempting to check the permissions of the bucket %s: %s"
+msgstr "সেখানে ছিল একটি ত্রুটি চেষ্টা পরীক্ষা করার অনুমতি বালতি %s: %s"
+
+#: modules/providers/aws/action.php:178 modules/providers/bunny/action.php:177
+#: modules/providers/digital/action.php:176
+#: modules/providers/wasabi/action.php:179
+msgid ""
+"This is a test file to check if the user has write permission to the bucket. "
+"Delete me if found."
+msgstr ""
+"এই একটি পরীক্ষা ফাইল যদি চেক করার ব্যবহারকারী লেখার অনুমতি বালতি. মুছে দিন "
+"যদি আমাকে পাওয়া যায়."
+
+#: templates/step/license.php:16
+msgid "This license work only for 10 days."
+msgstr "এই লাইসেন্স কাজ শুধু 10 দিনের জন্য."
+
+#: templates/settings/include/tools.php:209
+msgid "This tool will delete all the plugin settings of Next3 Offload"
+msgstr "এই টুল মুছে ফেলা হবে সব প্লাগইন এর সেটিংস Next3 অফলোড"
+
+#: templates/settings/include/tools.php:200
+msgid "This tool will remove provider credentials of Next3 Offload"
+msgstr "এই টুল মুছে ফেলা হবে প্রদানকারী পরিচয়পত্র Next3 অফলোড"
+
+#: utilities/admin.php:95 templates/settings/dashboard.php:12
+#: templates/settings/dashboard.php:66
+msgid "Tools"
+msgstr "সরঞ্জাম"
+
+#: templates/settings/dashboard.php:35
+msgid "Trial Mode is enabled. You can only view it on Trial Mode."
+msgstr "ট্রায়াল মোড সক্রিয়. শুধু আপনি করতে পারেন দেখুন মোড."
+
+#: templates/settings/include/tools.php:193
+msgid "Unclean files:"
+msgstr "অশুচি ফাইল:"
+
+#: templates/amazon/file-manager.php:4
+msgid "Upload File"
+msgstr "আপলোড ফাইল"
+
+#: templates/settings/include/export.php:71
+msgid "Uploaded AWS"
+msgstr "আপলোড করা হয়েছে ডেস্কটপ অ্যাপ উন্মোচন"
+
+#: modules/compatiblility.php:839
+msgid "Uploaded to"
+msgstr "আপলোড করার জন্য"
+
+#: modules/compatiblility.php:687
+msgid "Uploaded via:"
+msgstr "এর মাধ্যমে আপলোড করা:"
+
+#: utilities/admin.php:773
+msgid "User Guideline"
+msgstr "ব্যবহারকারী গাইডলাইন"
+
+#: templates/settings/include/delivery.php:114
+msgid ""
+"Uses HTTPS for every offloaded media item instead of using the scheme of the "
+"current page."
+msgstr ""
+"মধ্যে HTTPS ব্যবহার প্রত্যেক জন্য offloaded মিডিয়া আইটেম পরিবর্তে ব্যবহার "
+"করে স্কিম বর্তমান পাতা."
+
+#: templates/settings/dashboard.php:30
+msgid "Version: "
+msgstr "সংস্করণ: "
+
+#: functions.php:250 functions.php:256
+msgid "Wasabi Cloud"
+msgstr "টিকা সবুজ মেঘ"
+
+#: templates/settings/include/settings.php:82
+msgid ""
+"When a media URL is rewritten, it will use the following structure based on "
+"the current Storage and Delivery Settings:"
+msgstr ""
+"যখন একটি মিডিয়া URL হয়, পুনর্লিখিত, এটি ব্যবহার করা হবে, নিম্নলিখিত কাঠামো "
+"উপর ভিত্তি করে, বর্তমান স্টোরেজ এবং ডেলিভারি সেটিংস:"
+
+#: functions.php:605
+msgctxt "Whether or not metadata has been verified"
+msgid "Verified"
+msgstr "যাচাইকৃত"
+
+#: templates/settings/include/tools.php:18
+msgid "WP Upload process running..."
+msgstr "ডাব্লু তারিখ প্রক্রিয়া চলমান..."
+
+#: templates/step/config.php:88
+msgid "Warning: Block All Public Access setting is currently enabled."
+msgstr "Wraning: ব্লক সব পাবলিক এক্সেস বর্তমানে সক্রিয়."
+
+#: utilities/admin.php:499
+msgid ""
+"Warning: Block All Public Access setting is currently enabled. Need to permission, "
+"first!"
+msgstr ""
+"Wraning: ব্লক সব পাবলিক এক্সেস বর্তমানে সক্রিয়. প্রয়োজন অনুমতি প্রথম!"
+
+#: utilities/admin.php:507
+msgid ""
+"Wraning: File upload permission disabled. Please change bucket or Manual "
+"give to permission login with Provider panel."
+msgstr ""
+"Wraning: ফাইল আপলোড অনুমতি নিষ্ক্রিয়. দয়া করে পরিবর্তন বালতি বা ম্যানুয়াল "
+"দিতে অনুমতি দিয়ে লগইন প্রদানকারী প্যানেল."
+
+#: templates/settings/include/tools.php:97
+msgid ""
+"You should have options to offload your existing media, both individually or "
+"multiple."
+msgstr ""
+"আপনি বিকল্প আছে অফলোড, আপনার থেকে প্রস্থান মিডিয়া, উভয় স্বতন্ত্রভাবে বা "
+"একাধিক."

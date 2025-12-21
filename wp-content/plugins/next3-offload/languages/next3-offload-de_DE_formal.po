@@ -1,0 +1,1065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next3 Offload Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 10:21+0000\n"
+"PO-Revision-Date: 2023-07-30 10:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: German (Formal)\n"
+"Language: de_DE_formal\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: next3-offload"
+
+#: templates/step/license.php:11
+msgid " Buy Now"
+msgstr " Jetzt Kaufen"
+
+#: templates/step/license.php:8
+msgid " Product List"
+msgstr " Produkt Liste"
+
+#: templates/settings/include/export.php:70
+msgid "!Upload AWS"
+msgstr "!Upload AWS"
+
+#: templates/settings/include/tools.php:105
+#, php-format
+msgid "% files has been offloaded, you can move to Local Storage again"
+msgstr " %d ateien wurden gelöscht, Sie können den Lokalen Speicher wieder"
+
+#: templates/settings/include/tools.php:103
+msgid "% Media files has been Local Server"
+msgstr "% Mediendateien worden Lokalen Server"
+
+#: templates/settings/include/tools.php:114
+msgid "% Media files has been local storage, Paused!"
+msgstr "% Medien-Dateien wurde die lokale Speicherung, Pausiert!"
+
+#: templates/settings/include/tools.php:34
+msgid "% Media files has been offloaded"
+msgstr "% Mediendateien wurde abgeladen"
+
+#: templates/settings/include/tools.php:32
+msgid "% media files needs to be offload"
+msgstr "% Mediendateien werden muss offload"
+
+#: templates/settings/include/tools.php:55
+msgid "% media files needs to be offload, Paused!"
+msgstr "% Mediendateien werden muss offload, Pausiert!"
+
+#: templates/settings/include/tools.php:151
+#, php-format
+msgid "% offload files need to clean from local storage"
+msgstr "% offload-Dateien reinigen müssen aus dem lokalen Speicher"
+
+#: templates/settings/include/tools.php:153
+#, php-format
+msgid "% offload files now!, you can remove files from local storage"
+msgstr "% offload files now! entfernen Sie Dateien aus dem lokalen Speicher"
+
+#: templates/settings/include/tools.php:162
+msgid "% Offload files removed from local storage, Paused!"
+msgstr "% Offload gelöschte Dateien aus dem lokalen Speicher, Pausiert!"
+
+#: templates/step/providers.php:91
+msgid "- Select once -"
+msgstr "- Wählen Sie einst -"
+
+#: functions.php:603
+msgctxt "Access control list of the file in bucket"
+msgid "Access"
+msgstr "Zugang"
+
+#: functions.php:306
+msgid "Access Key"
+msgstr "Access Key"
+
+#: functions.php:158
+msgid "Access Key ID"
+msgstr "Access Key ID"
+
+#: modules/compatiblility.php:695
+msgid "Access:"
+msgstr "Zugang:"
+
+#: utilities/admin.php:101 templates/settings/dashboard.php:18
+#: templates/settings/dashboard.php:58 templates/step/license.php:22
+msgid "Active License"
+msgstr "Aktive Lizenz"
+
+#: templates/settings/include/settings.php:217
+msgid "Add Object Version to Bucket Path"
+msgstr "Objekt hinzufügen-Version zum Eimer Weg"
+
+#: templates/settings/include/settings.php:164
+msgid "Add Prefix to Bucket Path"
+msgstr "Präfix hinzufügen, um die Bucket-Pfad"
+
+#: templates/settings/include/settings.php:198
+msgid "Add Year & Month to Bucket Path"
+msgstr "Fügen Sie Jahr und Monat, um die Bucket-Pfad"
+
+#: templates/settings/dashboard.php:83
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: templates/settings/dashboard.php:21
+msgid "Addons"
+msgstr "Addons"
+
+#: templates/settings/include/settings.php:292
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: templates/settings/include/export.php:69
+msgid "All"
+msgstr "Alle"
+
+#: templates/settings/include/delivery.php:134
+msgid ""
+"Always all offloaded media files by rewriting URL's from selected Delivery "
+"Provider."
+msgstr ""
+"Immer alles abgeladen media-Dateien durch umschreiben der URL ist von der "
+"ausgewählten Liefer-Provider."
+
+#: functions.php:115
+msgid "Amazon CloudFront"
+msgstr "Amazon CloudFront"
+
+#: functions.php:97 functions.php:102
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: functions.php:375
+msgid "API Key - Storage"
+msgstr "API-Key - Lagerung"
+
+#: templates/step/license.php:6 templates/settings/include/active-pro.php:6
+msgid "At first go to "
+msgstr "Zuerst gehen Sie zu "
+
+#: modules/compatiblility.php:840
+msgid "Author"
+msgstr "Autor"
+
+#: templates/settings/include/export.php:14
+msgid "AWS Import process running..."
+msgstr "AWS Import-Vorgang läuft..."
+
+#: templates/settings/include/tools.php:15
+msgid "AWS Upload process running..."
+msgstr "AWS Upload-Vorgang läuft..."
+
+#: templates/step/config.php:95
+msgid "Block All Public Access is disabled."
+msgstr "Block Alle Öffentlichen Zugang Deaktiviert."
+
+#: templates/step/config.php:119
+msgid "Browse Existing Buckets"
+msgstr "Durchsuchen Sie Verlassen Eimer"
+
+#: templates/step/config.php:70 templates/settings/include/settings.php:45
+msgid "Bucket"
+msgstr "Eimer"
+
+#: functions.php:600
+msgctxt "Bucket name"
+msgid "Bucket"
+msgstr "Eimer"
+
+#: modules/compatiblility.php:669 modules/compatiblility.php:748
+msgid "Bucket:"
+msgstr "Eimer:"
+
+#: functions.php:325
+msgid "Bunny CDN"
+msgstr "Bunny CDN"
+
+#: functions.php:320
+msgid "Bunny Storage"
+msgstr "Bunny Storage"
+
+#: templates/settings/include/addons.php:18
+msgid "Buy now"
+msgstr "Jetzt kaufen"
+
+#: utilities/admin.php:997
+msgid "Can't upload permission. Config your credentails first."
+msgstr "Kann nicht hochladen Erlaubnis. Config Ihre Anmeldedaten erste."
+
+#: templates/settings/include/tools.php:85
+#: templates/settings/include/tools.php:141
+#: templates/settings/include/tools.php:189
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: templates/settings/include/tools.php:187
+msgid "Clean Now"
+msgstr "Jetzt Reinigen"
+
+#: templates/settings/include/tools.php:180
+msgid "Clean Offload files from Local Storage"
+msgstr "Sauber-Offload-Dateien aus dem Lokalen Speicher"
+
+#: templates/step/license.php:9 templates/settings/include/active-pro.php:9
+msgid "Click licenses button and get license key after add your domain"
+msgstr ""
+"Klicken Sie auf Lizenzen button und Holen Sie sich Lizenz-Taste, nachdem Sie "
+"Ihre Domäne hinzufügen"
+
+#: templates/settings/include/settings.php:253
+msgid "Click switch to multiple mime types support enabled."
+msgstr ""
+"Klicken Sie auf wechseln, um mehrere mime-Typen-Unterstützung aktiviert."
+
+#: templates/step/license.php:16
+msgid "Click to Revoke License. "
+msgstr "Klicken Sie auf Lizenz Widerrufen. "
+
+#: modules/compatiblility.php:786
+msgid "Click to update, automtic delete files from local server."
+msgstr ""
+"Klicken Sie auf update, automatische löschen von Dateien vom lokalen server."
+
+#: modules/compatiblility.php:772
+msgid "Click to update, copy it to the cloud (bucket)."
+msgstr "Klicken Sie auf aktualisieren, kopieren Sie es in die cloud (Eimer)."
+
+#: templates/settings/include/tools.php:89
+#: templates/settings/include/tools.php:145
+msgid "Cloud Storage:"
+msgstr "Cloud-Speicher:"
+
+#: functions.php:107 functions.php:264
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: functions.php:139
+msgid "Code"
+msgstr "Code"
+
+#: functions.php:218 functions.php:288 functions.php:358 functions.php:432
+msgid "Code:"
+msgstr "Code:"
+
+#: templates/step/config.php:23
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: templates/settings/include/settings.php:150
+msgid ""
+"Copies media files to the local server after being uploaded using Next3 File "
+"Manager."
+msgstr ""
+"Kopien von Medien-Dateien auf dem lokalen server, nachdem Sie hochgeladen "
+"mit Next3-Datei-Manager."
+
+#: templates/settings/include/settings.php:130
+msgid ""
+"Copies media files to the storage provider after being uploaded, edited, or "
+"optimized."
+msgstr ""
+"Kopien von Mediendateien auf dem Speicher-Anbieter, nachdem Sie hochgeladen, "
+"bearbeitet oder optimiert."
+
+#: modules/compatiblility.php:824
+msgid "Copy file to Cloud"
+msgstr "Kopiert die Datei in die Cloud"
+
+#: modules/compatiblility.php:768
+msgid "Copy files to Cloud (bucket):"
+msgstr "Kopieren von Dateien auf einen Cloud (bucket):"
+
+#: templates/step/license.php:10 templates/settings/include/active-pro.php:10
+msgid ""
+"Copy licenses key and paste key in license filed. Then click \"Active "
+"License\" Button"
+msgstr ""
+"Kopie-Lizenzen-Taste und die einfügen-Taste in Lizenz eingereicht. Klicken "
+"Sie dann auf \"Aktive Lizenz\" Button"
+
+#: templates/settings/include/settings.php:139
+msgid "Copy to Local Server"
+msgstr "Copy to Local Server"
+
+#: templates/step/config.php:120
+msgid "Create new Bucket"
+msgstr "Erstellen Sie neue Eimer"
+
+#: utilities/admin.php:763
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: modules/compatiblility.php:841
+msgid "Date"
+msgstr "Datum"
+
+#: functions.php:133 functions.php:212 functions.php:282 functions.php:352
+#: functions.php:426
+msgid "Define access keys in wp-config.php"
+msgstr "Definieren von access keys in wp-config.php"
+
+#: templates/settings/include/settings.php:325
+msgid ""
+"Delete a file from the cloud (bucket) once it has been deleted from the "
+"local server (WP Media)."
+msgstr ""
+"Löschen einer Datei aus der cloud (Eimer), sobald es gelöscht wurde von den "
+"lokalen server (WP Media)."
+
+#: utilities/admin.php:91
+msgid "Delivery"
+msgstr "Lieferung"
+
+#: templates/settings/dashboard.php:11 templates/settings/dashboard.php:50
+msgid "Delivery Settings"
+msgstr "Liefer-Einstellungen"
+
+#: functions.php:174 functions.php:180
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean Spaces"
+
+#: functions.php:194
+msgid "DigitalOcean Spaces CDN"
+msgstr "DigitalOcean Spaces-CDN"
+
+#: templates/step/config.php:90
+msgid "Disable \"Block All Public Access\""
+msgstr "Deaktivieren Sie \"Alle Blockieren Den Zugang Der Öffentlichkeit\""
+
+#: templates/settings/include/settings.php:228
+msgid ""
+"Ensures the latest version of a media item gets delivered by adding a unique "
+"timestamp to the bucket path."
+msgstr ""
+"Dafür sorgt die neueste version eines media-Element geliefert bekommt durch "
+"das hinzufügen einen eindeutigen Zeitstempel zu dem Eimer Weg."
+
+#: modules/providers/bunny/action.php:233
+#: modules/providers/bunny/action.php:373
+#: modules/providers/bunny/action.php:404
+msgid "Error!! provider connection not established."
+msgstr "Fehler!! Anbieter-Verbindung nicht hergestellt."
+
+#: utilities/admin.php:971
+#, php-format
+msgid "Every %d Seconds"
+msgstr "Alle %d Sekunden"
+
+#: templates/settings/include/export.php:48
+#: templates/settings/include/export.php:74
+msgid "Export"
+msgstr "Export"
+
+#: templates/settings/dashboard.php:13
+msgid "Export & Import"
+msgstr "Export & Import"
+
+#: templates/settings/dashboard.php:74
+msgid "Export & Import Media"
+msgstr "Exportieren & Importieren Von Medien"
+
+#: templates/settings/include/export.php:26
+msgid "Export all AWS S3 files to must be select Bucket."
+msgstr "Exportieren Sie alle AWS-S3-Dateien werden muss, wählen Sie Eimer."
+
+#: templates/settings/include/export.php:61
+msgid ""
+"Export all WP Media files to must be select Type(All media, Already Uploaded "
+"to AWS, Not upload to AWS)."
+msgstr ""
+"Exportieren Sie alle WP Media-Dateien werden muss, wählen Sie den Typ(Alle "
+"Medien, die Bereits Hochgeladen AWS, die Nicht hochladen AWS)."
+
+#: templates/settings/include/export.php:24
+msgid "Export media [AWS]"
+msgstr ""
+
+#: templates/settings/include/export.php:59
+msgid "Export media [WP]"
+msgstr ""
+
+#: templates/settings/dashboard.php:84
+msgid ""
+"Extra Addons of Next3 Plugins. You can use for extra features to extend "
+"Next3 Offload."
+msgstr ""
+"Extra Addons Next3 Plugins. Sie können für zusätzliche Funktionen zu "
+"erweitern, Next3-Offload."
+
+#: utilities/admin.php:772
+msgid "Features"
+msgstr "Features"
+
+#: templates/settings/include/settings.php:239
+msgid "File Management"
+msgstr "Datei Management"
+
+#: templates/amazon/file-manager.php:3 templates/settings/dashboard.php:32
+msgid "File Manager"
+msgstr "Datei-Manager"
+
+#: utilities/admin.php:86
+msgid "File manager"
+msgstr "Datei-manager"
+
+#: templates/settings/include/delivery.php:123
+msgid "Force CDN Delivery"
+msgstr "Kraft CDN Lieferung"
+
+#: templates/settings/include/delivery.php:103
+msgid "Force HTTPS"
+msgstr "Force HTTPS"
+
+#: templates/settings/include/settings.php:306
+msgid ""
+"Frees up storage space by deleting local media files after they have been "
+"offloaded."
+msgstr ""
+"Frei Speicherplatz durch löschen von lokalen Medien-Dateien, nachdem Sie "
+"übergeben wurde."
+
+#: functions.php:408
+msgid "GCP Cloud CDN"
+msgstr "GCP Cloud CDN"
+
+#: templates/settings/include/delivery.php:81
+#: templates/settings/include/settings.php:116
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: templates/step/license.php:8 templates/settings/include/active-pro.php:8
+msgid "Go to Products page "
+msgstr "Gehen Sie zur Seite Produkte "
+
+#: functions.php:398 functions.php:403
+msgid "Google Cloud Storage"
+msgstr "Google Cloud Storage"
+
+#: templates/settings/include/settings.php:176
+msgid ""
+"Groups media from this site together by using a common prefix in the bucket "
+"path of offloaded media files."
+msgstr ""
+"Gruppen-Medien von dieser Seite durch Verwendung einer gemeinsamen Präfix in "
+"den Eimer Weg abgeladen media-Dateien."
+
+#. Author URI of the plugin
+msgid "https://themedev.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themedev.net/next3-offload/"
+msgstr ""
+
+#: functions.php:152 functions.php:230 functions.php:300 functions.php:369
+#: functions.php:443
+msgid ""
+"I understand, it has risks but I'd like to store access keys in the database "
+"(not recommended)"
+msgstr ""
+"Ich verstehe, es hat Risiken, aber ich würde gerne den Zugriff auf den "
+"Informationsspeicher Schlüssel in der Datenbank (nicht empfohlen)"
+
+#: templates/step/license.php:11
+msgid ""
+"If don't have any license key, Just buy click now button and collect license "
+"key."
+msgstr ""
+"Wenn nicht haben eine Lizenz-Taste, Nur kaufen, klicken Sie auf die "
+"Schaltfläche jetzt und sammeln Sie Lizenz-Schlüssel."
+
+#: templates/step/config.php:89
+msgid ""
+"If you're not planning on using Amazon CloudFront for delivery, you need to "
+"<strong>Disabled Block All Public Access</strong>."
+msgstr ""
+
+#: templates/settings/include/export.php:110
+msgid "Import"
+msgstr "Import"
+
+#: templates/settings/include/export.php:86
+msgid "Import files [AWS]"
+msgstr ""
+
+#: templates/settings/include/tools.php:95
+msgid "Individual Offload Existing Media"
+msgstr "Individuelle ABLADUNG Verlassen Media"
+
+#: modules/providers/bunny/action.php:359
+msgid "Invalid File Path."
+msgstr "Ungültiger Datei Pfad."
+
+#: functions.php:449
+msgid "JSON Data"
+msgstr "JSON-Daten"
+
+#: modules/proactive/init.php:16
+msgid "Key is empty"
+msgstr "Schlüssel ist leer"
+
+#: functions.php:185
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#: templates/settings/dashboard.php:23
+msgid "Live Demos"
+msgstr "Live-Demos"
+
+#: templates/settings/include/tools.php:90
+#: templates/settings/include/tools.php:144
+msgid "Local Storage:"
+msgstr "Lokalen Lagerung:"
+
+#: functions.php:602
+msgctxt "Location of bucket"
+msgid "Region"
+msgstr "Region"
+
+#: templates/step/license.php:7
+msgid "Login"
+msgstr "Login"
+
+#: templates/step/license.php:7 templates/settings/include/active-pro.php:7
+msgid "Login your account "
+msgstr "Melden Sie sich bei Ihrem Konto "
+
+#. Description of the plugin
+msgid ""
+"Make your WordPress blazing fast by offloading your files to AWS S3 | "
+"DigitalOcean Spaces | Google Cloud Storage."
+msgstr ""
+
+#: modules/compatiblility.php:826
+msgid "Move file to WP Media"
+msgstr "Bewegen Sie die Datei auf WP Media"
+
+#: templates/settings/include/tools.php:139
+msgid "Move Now"
+msgstr "Bewegen Sie Jetzt"
+
+#: templates/settings/include/tools.php:132
+msgid "Move Offload Media to Local Storage"
+msgstr "Bewegen Offload Media, um die Lokale Speicherung"
+
+#: templates/amazon/file-manager.php:5
+msgid "New Folder"
+msgstr "Neuer Ordner"
+
+#: utilities/admin.php:67 utilities/admin.php:68
+msgid "Next3 Offload"
+msgstr "Next3 Offload"
+
+#. Name of the plugin
+msgid "Next3 Offload Media"
+msgstr "Next3 Offload Media"
+
+#: utilities/admin.php:787
+#, php-format
+msgid ""
+"Next3 Offload requires PHP version %1$s+, which is currently NOT RUNNING on "
+"this server."
+msgstr ""
+"Next3 Offload requires PHP version %1$s+, das ist derzeit NICHT auf diesem "
+"server AUSGEFÜHRT werden."
+
+#: templates/settings/dashboard.php:30
+msgid "Next3 Panel"
+msgstr "Next3 Panel"
+
+#: templates/setup.php:2
+msgid "Next3 Setup"
+msgstr "Next3 Setup"
+
+#: functions.php:594
+msgid "No"
+msgstr "Keine"
+
+#: modules/providers/aws/action.php:165 modules/providers/aws/action.php:193
+#: modules/providers/aws/action.php:234 modules/providers/aws/action.php:267
+#: modules/providers/aws/action.php:319 modules/providers/aws/action.php:396
+#: modules/providers/aws/action.php:430 modules/providers/aws/action.php:482
+#: modules/providers/bunny/action.php:168
+#: modules/providers/bunny/action.php:192
+#: modules/providers/bunny/action.php:206
+#: modules/providers/bunny/action.php:224
+#: modules/providers/bunny/action.php:388
+#: modules/providers/bunny/action.php:423
+#: modules/providers/digital/action.php:163
+#: modules/providers/digital/action.php:191
+#: modules/providers/digital/action.php:228
+#: modules/providers/digital/action.php:261
+#: modules/providers/digital/action.php:313
+#: modules/providers/digital/action.php:390
+#: modules/providers/digital/action.php:424
+#: modules/providers/digital/action.php:476
+#: modules/providers/wasabi/action.php:167
+#: modules/providers/wasabi/action.php:194
+#: modules/providers/wasabi/action.php:230
+#: modules/providers/wasabi/action.php:263
+#: modules/providers/wasabi/action.php:315
+#: modules/providers/wasabi/action.php:392
+#: modules/providers/wasabi/action.php:426
+#: modules/providers/wasabi/action.php:478
+msgid "No bucket name provided."
+msgstr "Keine bucket-Namen."
+
+#: modules/providers/bunny/action.php:353
+msgid "No Storage name provided."
+msgstr "Keine Speicherung Namen zur Verfügung gestellt."
+
+#: templates/settings/include/export.php:8
+msgid "Not found any media..."
+msgstr "Nicht alle Medien..."
+
+#: utilities/admin.php:1016
+msgid "Not found any process"
+msgstr "Nicht gefunden-Prozess"
+
+#: modules/compatiblility.php:610 modules/compatiblility.php:621
+msgid "Offload - Next3"
+msgstr "Offload - Next3"
+
+#: templates/settings/include/tools.php:192
+msgid "Offload files:"
+msgstr "Offload files:"
+
+#: templates/settings/include/settings.php:119
+msgid "Offload Media"
+msgstr "Offload Media"
+
+#: templates/settings/include/tools.php:83
+msgid "Offload Now"
+msgstr "Offload Jetzt"
+
+#: templates/settings/include/tools.php:98
+msgid "Offload now!"
+msgstr "Offload jetzt!"
+
+#: utilities/admin.php:1020
+msgid "Offload process has been pause"
+msgstr "Offload-Prozess wurde pause"
+
+#: templates/settings/include/settings.php:334
+msgid "Offload Settings"
+msgstr "Offload Einstellungen"
+
+#: templates/settings/include/tools.php:76
+msgid "Offload your Existing Media Library"
+msgstr "Offload Ihre Bestehende Media-Bibliothek"
+
+#: templates/settings/include/settings.php:242
+msgid "Offload {multiple mime types} format to cloud"
+msgstr ""
+
+#: functions.php:123 functions.php:202 functions.php:272 functions.php:342
+#: functions.php:417
+msgid "Other"
+msgstr "Andere"
+
+#: functions.php:601
+msgctxt "Path to file in bucket"
+msgid "Path"
+msgstr "Pfad"
+
+#: modules/compatiblility.php:678
+msgid "Path:"
+msgstr "Pfad:"
+
+#: utilities/admin.php:386
+msgid "Please activate your license."
+msgstr "Bitte aktivieren Sie Ihre Lizenz!"
+
+#: templates/settings/dashboard.php:34
+msgid "Please active your license "
+msgstr "Bitte, Ihre Lizenz aktiv ist "
+
+#: utilities/admin.php:406
+msgid "Please choose prodiver and enter valid credentails."
+msgstr "Bitte wählen Sie prodiver und geben Sie gültige Anmeldedaten."
+
+#: templates/settings/include/tools.php:12
+msgid "Please select any buckets..."
+msgstr "Bitte wählen Sie eine beliebige Eimer..."
+
+#: templates/settings/include/export.php:5
+msgid "Please select buckets..."
+msgstr "Bitte wählen Sie in Eimern..."
+
+#: templates/settings/include/export.php:11
+msgid "Please select type for export media..."
+msgstr "Bitte wählen Sie den Typ für den export in den Medien..."
+
+#: functions.php:604 templates/settings/include/settings.php:79
+msgid "Preview URL"
+msgstr "URL-Vorschau"
+
+#: modules/compatiblility.php:757
+msgid "Preview:"
+msgstr "Vorschau:"
+
+#: templates/step/config.php:31 templates/settings/include/settings.php:33
+msgid "Provider"
+msgstr "Anbieter"
+
+#: modules/compatiblility.php:838
+msgid "Provider Info"
+msgstr "Anbieter Info"
+
+#: templates/settings/include/settings.php:209
+msgid ""
+"Provides another level of organization within the bucket by including the "
+"year & month in which the file was uploaded to the site."
+msgstr ""
+"Bietet eine andere Ebene der Organisation in den Eimer, indem Sie das Jahr "
+"und Monat, in dem die Datei auf die Website hochgeladen."
+
+#: templates/step/config.php:53 templates/step/config.php:127
+msgid "Region"
+msgstr "Region"
+
+#: modules/compatiblility.php:660 modules/compatiblility.php:739
+msgid "Region:"
+msgstr "Region:"
+
+#: templates/step/config.php:96
+msgid "Remove all Files from this Bucket"
+msgstr "Entfernen Sie alle Dateien aus diesem Eimer"
+
+#: templates/settings/include/settings.php:314
+msgid "Remove Files from Cloud"
+msgstr "Entfernen von Dateien aus der Cloud"
+
+#: modules/compatiblility.php:783
+msgid "Remove Files From Server:"
+msgstr "Entfernen Von Dateien Vom Server:"
+
+#: templates/settings/include/settings.php:295
+msgid "Remove Local Media"
+msgstr "Entfernen Von Lokalen Medien"
+
+#: templates/settings/include/tools.php:201
+#: templates/settings/include/tools.php:210
+msgid "Reset"
+msgstr "Reset"
+
+#: templates/settings/include/tools.php:198
+msgid "Reset Credentials"
+msgstr "Zurücksetzen Von Anmeldeinformationen"
+
+#: templates/settings/include/tools.php:207
+msgid "Reset Settings"
+msgstr "Einstellungen Zurücksetzen"
+
+#: templates/settings/include/delivery.php:84
+msgid "Rewrite Media URLs or Deliver Offloaded Media"
+msgstr "Umschreiben Media-URLs oder Liefern Abgeladen Media"
+
+#: templates/step/config.php:121
+msgid "Save Bucket Settings"
+msgstr "Speichern Eimer Einstellungen"
+
+#: templates/step/config.php:166 templates/settings/include/delivery.php:147
+#: templates/settings/include/settings.php:373
+msgid "Save Settings"
+msgstr "Einstellungen Speichern"
+
+#: functions.php:163
+msgid "Secret Access Key"
+msgstr "Secret Access Key"
+
+#: functions.php:241 functions.php:311
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: templates/settings/include/export.php:88
+msgid "Select [.json] file to upload into AWS S3 Bucket."
+msgstr ""
+
+#: templates/settings/include/export.php:36
+#: templates/settings/include/export.php:99
+msgid "Select any bucket"
+msgstr "Wählen Sie einen beliebigen Eimer"
+
+#: templates/settings/include/settings.php:262
+msgid "Select Files Extension"
+msgstr "Wählen Sie Die Dateien Erweiterung"
+
+#: templates/settings/include/delivery.php:22
+msgid "Select Provider"
+msgstr "Provider Auswählen"
+
+#: templates/settings/include/export.php:68
+msgid "Select Type"
+msgstr "Typ Wählen"
+
+#: templates/settings/include/delivery.php:95
+msgid ""
+"Serves offloaded media files by rewriting local URLs so that they point to "
+"Cloud"
+msgstr ""
+"Dient abgeladen media-Dateien durch umschreiben der lokalen URLs so, dass "
+"Sie Punkt-zu-Cloud"
+
+#: templates/settings/include/settings.php:360
+msgid "Set up number of Paged"
+msgstr "Legen Sie die Anzahl der Ausgelagerten"
+
+#: utilities/admin.php:80 utilities/admin.php:761
+msgid "Setup"
+msgstr "Setup"
+
+#: templates/settings/include/settings.php:161
+msgid "Setup Path"
+msgstr "Setup-Pfad"
+
+#: templates/settings/include/settings.php:346
+msgid "Setup your offload limit. [Max value: 20,000]"
+msgstr ""
+
+#: utilities/check/valid.php:39
+msgid "Something went wrong"
+msgstr "Etwas ging falsch"
+
+#: templates/step/config.php:175
+msgid "Sorry! your credentails is wrong."
+msgstr "Sorry! Ihre Anmeldedaten falsch ist."
+
+#: utilities/admin.php:414
+msgid "Error! Access keys in wp-config.php are not defined."
+msgstr "Sorry!! nicht definiert access keys in wp-config.php"
+
+#: utilities/admin.php:423
+msgid "Error! .json file path is not defined."
+msgstr "Sorry!! bitte definieren Sie .json-Datei-Pfad"
+
+#: utilities/admin.php:431 utilities/admin.php:460
+msgid "Error! Bunny CDN API key or password is missing."
+msgstr "Sorry!! bitte geben Sie Bunny-API-Schlüssel oder Passwort."
+
+#: utilities/admin.php:452
+msgid "Error! .json file path is not defined."
+msgstr "Sorry!! bitte geben Sie json-Daten"
+
+#: utilities/admin.php:469
+msgid "Sorry!! please enter your credentails data"
+msgstr "Sorry!! bitte geben Sie Ihren Anmeldedaten Daten"
+
+#: utilities/admin.php:440
+msgid "Sorry!! please enter your valid credentails."
+msgstr "Sorry!! bitte geben Sie Ihre gültige Anmeldedaten."
+
+#: utilities/admin.php:990
+msgid "Sorry!!! please active license"
+msgstr "Sorry!!! bitte aktive Lizenz"
+
+#: utilities/admin.php:985
+msgid "Sorry!!! Trial mode enable"
+msgstr "Sorry!!! Trial-Modus aktivieren"
+
+#: functions.php:236
+msgid "Spaces Access Key"
+msgstr "Räume, Access Key"
+
+#: utilities/admin.php:486
+msgid "Your bucket and region are not defined."
+msgstr "Steup Ihre Eimer und Region"
+
+#: utilities/admin.php:491
+msgid "Your storage and region are not defined."
+msgstr "Steup, Ihre Speicher-und Region"
+
+#: utilities/admin.php:90 templates/step/config.php:145
+msgid "Storage"
+msgstr "Lagerung"
+
+#: templates/settings/include/settings.php:62
+msgid "Storage Name"
+msgstr "Storage Name"
+
+#: functions.php:598
+msgctxt "Storage provider key name"
+msgid "Storage Provider"
+msgstr "Storage-Anbieter"
+
+#: functions.php:599
+msgctxt "Storage provider name"
+msgid "Storage Provider"
+msgstr "Storage-Anbieter"
+
+#: modules/compatiblility.php:653 modules/compatiblility.php:731
+msgid "Storage Provider:"
+msgstr "Lagerung Anbieter:"
+
+#: templates/settings/dashboard.php:10 templates/settings/dashboard.php:43
+msgid "Storage Settings"
+msgstr "Speicher Einstellungen"
+
+#: functions.php:154 functions.php:232 functions.php:302 functions.php:371
+#: functions.php:445
+msgid ""
+"Storing your access keys in the database is less secure than the options "
+"above, but if you're ok with that, go ahead and enter your keys in the form "
+"below."
+msgstr ""
+"Das speichern Ihrer access-Schlüssel in der Datenbank ist weniger sicher als "
+"die oben genannten Optionen, aber wenn Sie sind ok mit, dass, gehen Sie "
+"voran und geben Sie Ihren Schlüssel in das unten stehende Formular."
+
+#: modules/providers/bunny/action.php:239
+msgid "Successfully Deleted this file"
+msgstr "Diese Datei wurde erfolgreich Gelöscht"
+
+#: templates/settings/include/tools.php:9
+msgid "Successfully reset credentials..."
+msgstr "Erfolgreich zurücksetzen von Anmeldeinformationen..."
+
+#: templates/settings/include/tools.php:6
+msgid "Successfully reset plugin settings..."
+msgstr "Erfolgreich zurücksetzen der plugin-Einstellungen..."
+
+#: utilities/admin.php:774
+msgid "Support"
+msgstr "Support"
+
+#. Author of the plugin
+msgid "ThemeDev"
+msgstr "ThemeDev"
+
+#: templates/step/license.php:6
+msgid "ThemeDev Account"
+msgstr "ThemeDev Account"
+
+#: modules/providers/aws/action.php:182 modules/providers/bunny/action.php:182
+#: modules/providers/digital/action.php:180
+#: modules/providers/wasabi/action.php:183
+#, php-format
+msgid ""
+"There was an error attempting to check the permissions of the bucket %s: %s"
+msgstr ""
+"Es wurde ein Fehler beim überprüfen der Berechtigungen für den bucket %s: %s"
+
+#: modules/providers/aws/action.php:178 modules/providers/bunny/action.php:177
+#: modules/providers/digital/action.php:176
+#: modules/providers/wasabi/action.php:179
+msgid ""
+"This is a test file to check if the user has write permission to the bucket. "
+"Delete me if found."
+msgstr ""
+"Dies ist eine test-Datei, um zu überprüfen, ob der Benutzer hat "
+"Schreibzugriff auf den bucket. Löschen Sie mir, wenn Sie gefunden werden."
+
+#: templates/step/license.php:16
+msgid "This license work only for 10 days."
+msgstr "Diese Lizenz nur für 10 Tage."
+
+#: templates/settings/include/tools.php:209
+msgid "This tool will delete all the plugin settings of Next3 Offload"
+msgstr "Dieses tool löscht alle plugin-Einstellungen von Next3 Offload"
+
+#: templates/settings/include/tools.php:200
+msgid "This tool will remove provider credentials of Next3 Offload"
+msgstr ""
+"Dieses tool wird entfernen Sie Anbieter Anmeldeinformationen Next3 Offload"
+
+#: utilities/admin.php:95 templates/settings/dashboard.php:12
+#: templates/settings/dashboard.php:66
+msgid "Tools"
+msgstr "Tools"
+
+#: templates/settings/dashboard.php:35
+msgid "Trial Mode is enabled. You can only view it on Trial Mode."
+msgstr "Test-Modus Aktiviert. Nur Sie können view-Modus."
+
+#: templates/settings/include/tools.php:193
+msgid "Unclean files:"
+msgstr "Unrein-Dateien:"
+
+#: templates/amazon/file-manager.php:4
+msgid "Upload File"
+msgstr "Datei Hochladen"
+
+#: templates/settings/include/export.php:71
+msgid "Uploaded AWS"
+msgstr "Hochgeladen AWS"
+
+#: modules/compatiblility.php:839
+msgid "Uploaded to"
+msgstr "Hochgeladen"
+
+#: modules/compatiblility.php:687
+msgid "Uploaded via:"
+msgstr "Hochgeladen über:"
+
+#: utilities/admin.php:773
+msgid "User Guideline"
+msgstr "Benutzer Leitfaden"
+
+#: templates/settings/include/delivery.php:114
+msgid ""
+"Uses HTTPS for every offloaded media item instead of using the scheme of the "
+"current page."
+msgstr ""
+"Verwendet HTTPS für jede ausgelagerte Medien posten, anstatt mit dem Schema "
+"der aktuellen Seite."
+
+#: templates/settings/dashboard.php:30
+msgid "Version: "
+msgstr "Version: "
+
+#: functions.php:250 functions.php:256
+msgid "Wasabi Cloud"
+msgstr "Wasabi Cloud"
+
+#: templates/settings/include/settings.php:82
+msgid ""
+"When a media URL is rewritten, it will use the following structure based on "
+"the current Storage and Delivery Settings:"
+msgstr ""
+"Wenn ein Medien-URL umgeschrieben wird, verwenden Sie die folgende Struktur "
+"basierend auf der aktuellen Lager-und Liefer-Einstellungen:"
+
+#: functions.php:605
+msgctxt "Whether or not metadata has been verified"
+msgid "Verified"
+msgstr "Verifiziert"
+
+#: templates/settings/include/tools.php:18
+msgid "WP Upload process running..."
+msgstr "WP Upload-Vorgang läuft..."
+
+#: templates/step/config.php:88
+msgid "Warning: Block All Public Access setting is currently enabled."
+msgstr ""
+"Wraning: Alle Blockieren den Zugang der Öffentlichkeit ist derzeit aktiviert."
+
+#: utilities/admin.php:499
+msgid ""
+"Warning: Block All Public Access setting is currently enabled. Need to permission, "
+"first!"
+msgstr ""
+"Wraning: Alle Blockieren den Zugang der Öffentlichkeit ist derzeit aktiviert."
+" Müssen die Erlaubnis, die erste!"
+
+#: utilities/admin.php:507
+msgid ""
+"Wraning: File upload permission disabled. Please change bucket or Manual "
+"give to permission login with Provider panel."
+msgstr ""
+"Wraning: Datei-upload-Berechtigung deaktiviert. Bitte ändern Sie den Eimer "
+"oder die Manuelle zu geben die Erlaubnis login mit Provider-panel."
+
+#: templates/settings/include/tools.php:97
+msgid ""
+"You should have options to offload your existing media, both individually or "
+"multiple."
+msgstr ""
+"Sie sollten die option zum auslagern Ihrer vorhandenen Medien, die sowohl "
+"einzeln oder mehrere."

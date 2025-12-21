@@ -1,0 +1,1013 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next3 Offload Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 10:21+0000\n"
+"PO-Revision-Date: 2023-07-30 12:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: next3-offload"
+
+#: templates/step/license.php:11
+msgid " Buy Now"
+msgstr " 现在买的"
+
+#: templates/step/license.php:8
+msgid " Product List"
+msgstr " 产品清单"
+
+#: templates/settings/include/export.php:70
+msgid "!Upload AWS"
+msgstr "!上传AWS"
+
+#: templates/settings/include/tools.php:105
+#, php-format
+msgid "% files has been offloaded, you can move to Local Storage again"
+msgstr "%的文件已被卸载的，你可以移动到地方再储存"
+
+#: templates/settings/include/tools.php:103
+msgid "% Media files has been Local Server"
+msgstr "%的媒体文件已经被当地的服务器"
+
+#: templates/settings/include/tools.php:114
+msgid "% Media files has been local storage, Paused!"
+msgstr "%的媒体文件已被本地储存，停下!"
+
+#: templates/settings/include/tools.php:34
+msgid "% Media files has been offloaded"
+msgstr "%的媒体文件已经卸载"
+
+#: templates/settings/include/tools.php:32
+msgid "% media files needs to be offload"
+msgstr "%的媒体文件需要的卸载"
+
+#: templates/settings/include/tools.php:55
+msgid "% media files needs to be offload, Paused!"
+msgstr "%的媒体文件需要被卸载，暂停!"
+
+#: templates/settings/include/tools.php:151
+#, php-format
+msgid "% offload files need to clean from local storage"
+msgstr "%卸载文件需要从本地的储存"
+
+#: templates/settings/include/tools.php:153
+#, php-format
+msgid "% offload files now!, you can remove files from local storage"
+msgstr "%卸载文件现在!, 你可以删除的文件，从本地的储存"
+
+#: templates/settings/include/tools.php:162
+msgid "% Offload files removed from local storage, Paused!"
+msgstr "%卸载文件，删除从当地的储存，停下!"
+
+#: templates/step/providers.php:91
+msgid "- Select once -"
+msgstr "-选择一次"
+
+#: functions.php:603
+msgctxt "Access control list of the file in bucket"
+msgid "Access"
+msgstr "访问"
+
+#: functions.php:306
+msgid "Access Key"
+msgstr "访问的关键"
+
+#: functions.php:158
+msgid "Access Key ID"
+msgstr "访问关键的ID"
+
+#: modules/compatiblility.php:695
+msgid "Access:"
+msgstr "访问："
+
+#: utilities/admin.php:101 templates/settings/dashboard.php:18
+#: templates/settings/dashboard.php:58 templates/step/license.php:22
+msgid "Active License"
+msgstr "活动的许可证"
+
+#: templates/settings/include/settings.php:217
+msgid "Add Object Version to Bucket Path"
+msgstr "添加物的版本，以桶路径"
+
+#: templates/settings/include/settings.php:164
+msgid "Add Prefix to Bucket Path"
+msgstr "添加的前缀斗路径"
+
+#: templates/settings/include/settings.php:198
+msgid "Add Year & Month to Bucket Path"
+msgstr "添加一年&月斗路径"
+
+#: templates/settings/dashboard.php:83
+msgid "Add-ons"
+msgstr "附加件"
+
+#: templates/settings/dashboard.php:21
+msgid "Addons"
+msgstr "插件"
+
+#: templates/settings/include/settings.php:292
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: templates/settings/include/export.php:69
+msgid "All"
+msgstr "所有"
+
+#: templates/settings/include/delivery.php:134
+msgid ""
+"Always all offloaded media files by rewriting URL's from selected Delivery "
+"Provider."
+msgstr "总是所有卸载的媒体文件，通过改写的网址从选定的输送的供应商。"
+
+#: functions.php:115
+msgid "Amazon CloudFront"
+msgstr "亚马逊次尝试获取"
+
+#: functions.php:97 functions.php:102
+msgid "Amazon S3"
+msgstr "亚马逊S3"
+
+#: functions.php:375
+msgid "API Key - Storage"
+msgstr "API密钥的储存"
+
+#: templates/step/license.php:6 templates/settings/include/active-pro.php:6
+msgid "At first go to "
+msgstr "在第一个去 "
+
+#: modules/compatiblility.php:840
+msgid "Author"
+msgstr "作者"
+
+#: templates/settings/include/export.php:14
+msgid "AWS Import process running..."
+msgstr "AWS进口的运行过程中..."
+
+#: templates/settings/include/tools.php:15
+msgid "AWS Upload process running..."
+msgstr "AWS上传运行的过程..."
+
+#: templates/step/config.php:95
+msgid "Block All Public Access is disabled."
+msgstr "阻止所有的公共接入残疾人。"
+
+#: templates/step/config.php:119
+msgid "Browse Existing Buckets"
+msgstr "浏览退出桶"
+
+#: templates/step/config.php:70 templates/settings/include/settings.php:45
+msgid "Bucket"
+msgstr "桶"
+
+#: functions.php:600
+msgctxt "Bucket name"
+msgid "Bucket"
+msgstr "桶"
+
+#: modules/compatiblility.php:669 modules/compatiblility.php:748
+msgid "Bucket:"
+msgstr "桶："
+
+#: functions.php:325
+msgid "Bunny CDN"
+msgstr "兔子CDN"
+
+#: functions.php:320
+msgid "Bunny Storage"
+msgstr "兔子存储"
+
+#: templates/settings/include/addons.php:18
+msgid "Buy now"
+msgstr "现在买的"
+
+#: utilities/admin.php:997
+msgid "Can't upload permission. Config your credentails first."
+msgstr "不能上传的权限。 Config你credentails第一次。"
+
+#: templates/settings/include/tools.php:85
+#: templates/settings/include/tools.php:141
+#: templates/settings/include/tools.php:189
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/settings/include/tools.php:187
+msgid "Clean Now"
+msgstr "现在干净了"
+
+#: templates/settings/include/tools.php:180
+msgid "Clean Offload files from Local Storage"
+msgstr "清洁卸载文件，从本地的储存"
+
+#: templates/step/license.php:9 templates/settings/include/active-pro.php:9
+msgid "Click licenses button and get license key after add your domain"
+msgstr "单击\"许可证\"按钮，让许可证的关键之后添加你域"
+
+#: templates/settings/include/settings.php:253
+msgid "Click switch to multiple mime types support enabled."
+msgstr "点击开关于多mime类型的支持已启用。"
+
+#: templates/step/license.php:16
+msgid "Click to Revoke License. "
+msgstr "点击到吊销许可证。 "
+
+#: modules/compatiblility.php:786
+msgid "Click to update, automtic delete files from local server."
+msgstr "点击，以更新，automtic删除的文件，从本地服务器。"
+
+#: modules/compatiblility.php:772
+msgid "Click to update, copy it to the cloud (bucket)."
+msgstr "点击，来更新，复制到云(桶)."
+
+#: templates/settings/include/tools.php:89
+#: templates/settings/include/tools.php:145
+msgid "Cloud Storage:"
+msgstr "云的存储："
+
+#: functions.php:107 functions.php:264
+msgid "Cloudflare"
+msgstr "根据"
+
+#: functions.php:139
+msgid "Code"
+msgstr "代码"
+
+#: functions.php:218 functions.php:288 functions.php:358 functions.php:432
+msgid "Code:"
+msgstr "代码:"
+
+#: templates/step/config.php:23
+msgid "Configuration"
+msgstr "配置"
+
+#: templates/settings/include/settings.php:150
+msgid ""
+"Copies media files to the local server after being uploaded using Next3 File "
+"Manager."
+msgstr "拷贝媒体的文件的地方服务器之后被上载使用Next3文件管理。"
+
+#: templates/settings/include/settings.php:130
+msgid ""
+"Copies media files to the storage provider after being uploaded, edited, or "
+"optimized."
+msgstr "拷贝媒体的文件的储存提供商之后正在上传、编辑或优化。"
+
+#: modules/compatiblility.php:824
+msgid "Copy file to Cloud"
+msgstr "复制文件以云"
+
+#: modules/compatiblility.php:768
+msgid "Copy files to Cloud (bucket):"
+msgstr "复制的文件云(桶):"
+
+#: templates/step/license.php:10 templates/settings/include/active-pro.php:10
+msgid ""
+"Copy licenses key and paste key in license filed. Then click \"Active "
+"License\" Button"
+msgstr "拷贝的许可证的关键，并粘贴键在许可证申请。 然后点击\"主动许可证\"的按钮"
+
+#: templates/settings/include/settings.php:139
+msgid "Copy to Local Server"
+msgstr "复制到本地服务器"
+
+#: templates/step/config.php:120
+msgid "Create new Bucket"
+msgstr "创造新的桶"
+
+#: utilities/admin.php:763
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: modules/compatiblility.php:841
+msgid "Date"
+msgstr "日期"
+
+#: functions.php:133 functions.php:212 functions.php:282 functions.php:352
+#: functions.php:426
+msgid "Define access keys in wp-config.php"
+msgstr "定义访问钥匙wp-config.php"
+
+#: templates/settings/include/settings.php:325
+msgid ""
+"Delete a file from the cloud (bucket) once it has been deleted from the "
+"local server (WP Media)."
+msgstr "删除文件从云(桶)一旦它已经被删除从当地的服务器(WP媒体)。"
+
+#: utilities/admin.php:91
+msgid "Delivery"
+msgstr "交付"
+
+#: templates/settings/dashboard.php:11 templates/settings/dashboard.php:50
+msgid "Delivery Settings"
+msgstr "交付的设置"
+
+#: functions.php:174 functions.php:180
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean空间"
+
+#: functions.php:194
+msgid "DigitalOcean Spaces CDN"
+msgstr "DigitalOcean空间CDN"
+
+#: templates/step/config.php:90
+msgid "Disable \"Block All Public Access\""
+msgstr "禁止\"阻止所有的公共访问\""
+
+#: templates/settings/include/settings.php:228
+msgid ""
+"Ensures the latest version of a media item gets delivered by adding a unique "
+"timestamp to the bucket path."
+msgstr "确保最新的版本一个媒体项目被交付增加一个独特的时间戳到桶的道路。"
+
+#: modules/providers/bunny/action.php:233
+#: modules/providers/bunny/action.php:373
+#: modules/providers/bunny/action.php:404
+msgid "Error!! provider connection not established."
+msgstr "错误!! 提供者的连接不成立的。"
+
+#: utilities/admin.php:971
+#, php-format
+msgid "Every %d Seconds"
+msgstr "每%d Seconds"
+
+#: templates/settings/include/export.php:48
+#: templates/settings/include/export.php:74
+msgid "Export"
+msgstr "出口"
+
+#: templates/settings/dashboard.php:13
+msgid "Export & Import"
+msgstr "出口和进口"
+
+#: templates/settings/dashboard.php:74
+msgid "Export & Import Media"
+msgstr "出口和进口的媒体"
+
+#: templates/settings/include/export.php:26
+msgid "Export all AWS S3 files to must be select Bucket."
+msgstr "出口的所有AWS S3的文件必须选择桶。"
+
+#: templates/settings/include/export.php:61
+msgid ""
+"Export all WP Media files to must be select Type(All media, Already Uploaded "
+"to AWS, Not upload to AWS)."
+msgstr "出口的所有WP媒体文件必须选择类型(所有媒体，已经上传到AWS，不能上传到AWS)。"
+
+#: templates/settings/include/export.php:24
+msgid "Export media [AWS]"
+msgstr ""
+
+#: templates/settings/include/export.php:59
+msgid "Export media [WP]"
+msgstr ""
+
+#: templates/settings/dashboard.php:84
+msgid ""
+"Extra Addons of Next3 Plugins. You can use for extra features to extend "
+"Next3 Offload."
+msgstr "额外的扩展中心的Next3插件。 你可以用额外的功能延长Next3卸载。"
+
+#: utilities/admin.php:772
+msgid "Features"
+msgstr "功能"
+
+#: templates/settings/include/settings.php:239
+msgid "File Management"
+msgstr "文件管理"
+
+#: templates/amazon/file-manager.php:3 templates/settings/dashboard.php:32
+msgid "File Manager"
+msgstr "文件经理"
+
+#: utilities/admin.php:86
+msgid "File manager"
+msgstr "文件经理"
+
+#: templates/settings/include/delivery.php:123
+msgid "Force CDN Delivery"
+msgstr "力CDN的交付"
+
+#: templates/settings/include/delivery.php:103
+msgid "Force HTTPS"
+msgstr "力HTTPS"
+
+#: templates/settings/include/settings.php:306
+msgid ""
+"Frees up storage space by deleting local media files after they have been "
+"offloaded."
+msgstr "释放储存空间，通过删除本地媒体的文件后，他们已经卸下."
+
+#: functions.php:408
+msgid "GCP Cloud CDN"
+msgstr "GCP云CDN"
+
+#: templates/settings/include/delivery.php:81
+#: templates/settings/include/settings.php:116
+msgid "General Options"
+msgstr "一般的选择"
+
+#: templates/step/license.php:8 templates/settings/include/active-pro.php:8
+msgid "Go to Products page "
+msgstr "去产品页 "
+
+#: functions.php:398 functions.php:403
+msgid "Google Cloud Storage"
+msgstr "谷歌云储存"
+
+#: templates/settings/include/settings.php:176
+msgid ""
+"Groups media from this site together by using a common prefix in the bucket "
+"path of offloaded media files."
+msgstr "基媒体从这个网站在一起，通过使用共同的前缀在桶里的道路卸载的媒体文件。"
+
+#. Author URI of the plugin
+msgid "https://themedev.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themedev.net/next3-offload/"
+msgstr ""
+
+#: functions.php:152 functions.php:230 functions.php:300 functions.php:369
+#: functions.php:443
+msgid ""
+"I understand, it has risks but I'd like to store access keys in the database "
+"(not recommended)"
+msgstr "我明白，它具有风险但我喜欢商店的访问键的数据库(不建议)"
+
+#: templates/step/license.php:11
+msgid ""
+"If don't have any license key, Just buy click now button and collect license "
+"key."
+msgstr "如果没有任何许可证的关键，只是买点击按钮现在，并收集许可证的关键。"
+
+#: templates/step/config.php:89
+msgid ""
+"If you're not planning on using Amazon CloudFront for delivery, you need to "
+"<strong>Disabled Block All Public Access</strong>."
+msgstr ""
+
+#: templates/settings/include/export.php:110
+msgid "Import"
+msgstr "进口"
+
+#: templates/settings/include/export.php:86
+msgid "Import files [AWS]"
+msgstr ""
+
+#: templates/settings/include/tools.php:95
+msgid "Individual Offload Existing Media"
+msgstr "个人卸载媒体退出"
+
+#: modules/providers/bunny/action.php:359
+msgid "Invalid File Path."
+msgstr "无效的文件的道路。"
+
+#: functions.php:449
+msgid "JSON Data"
+msgstr "Java"
+
+#: modules/proactive/init.php:16
+msgid "Key is empty"
+msgstr "关键是空的"
+
+#: functions.php:185
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#: templates/settings/dashboard.php:23
+msgid "Live Demos"
+msgstr "现场演示"
+
+#: templates/settings/include/tools.php:90
+#: templates/settings/include/tools.php:144
+msgid "Local Storage:"
+msgstr "当地的存储："
+
+#: functions.php:602
+msgctxt "Location of bucket"
+msgid "Region"
+msgstr "区域"
+
+#: templates/step/license.php:7
+msgid "Login"
+msgstr "登录"
+
+#: templates/step/license.php:7 templates/settings/include/active-pro.php:7
+msgid "Login your account "
+msgstr "登入你的帐户 "
+
+#. Description of the plugin
+msgid ""
+"Make your WordPress blazing fast by offloading your files to AWS S3 | "
+"DigitalOcean Spaces | Google Cloud Storage."
+msgstr ""
+
+#: modules/compatiblility.php:826
+msgid "Move file to WP Media"
+msgstr "移动文件WP媒体"
+
+#: templates/settings/include/tools.php:139
+msgid "Move Now"
+msgstr "现在移动"
+
+#: templates/settings/include/tools.php:132
+msgid "Move Offload Media to Local Storage"
+msgstr "移动卸载媒体到当地的储存"
+
+#: templates/amazon/file-manager.php:5
+msgid "New Folder"
+msgstr "新的文件夹"
+
+#: utilities/admin.php:67 utilities/admin.php:68
+msgid "Next3 Offload"
+msgstr "Next3卸载"
+
+#. Name of the plugin
+msgid "Next3 Offload Media"
+msgstr "Next3卸载媒体"
+
+#: utilities/admin.php:787
+#, php-format
+msgid ""
+"Next3 Offload requires PHP version %1$s+, which is currently NOT RUNNING on "
+"this server."
+msgstr "Next3卸载要求PHP version%1$s+，这是目前没有运行，在这个服务器。"
+
+#: templates/settings/dashboard.php:30
+msgid "Next3 Panel"
+msgstr "Next3板"
+
+#: templates/setup.php:2
+msgid "Next3 Setup"
+msgstr "Next3设置"
+
+#: functions.php:594
+msgid "No"
+msgstr "没有"
+
+#: modules/providers/aws/action.php:165 modules/providers/aws/action.php:193
+#: modules/providers/aws/action.php:234 modules/providers/aws/action.php:267
+#: modules/providers/aws/action.php:319 modules/providers/aws/action.php:396
+#: modules/providers/aws/action.php:430 modules/providers/aws/action.php:482
+#: modules/providers/bunny/action.php:168
+#: modules/providers/bunny/action.php:192
+#: modules/providers/bunny/action.php:206
+#: modules/providers/bunny/action.php:224
+#: modules/providers/bunny/action.php:388
+#: modules/providers/bunny/action.php:423
+#: modules/providers/digital/action.php:163
+#: modules/providers/digital/action.php:191
+#: modules/providers/digital/action.php:228
+#: modules/providers/digital/action.php:261
+#: modules/providers/digital/action.php:313
+#: modules/providers/digital/action.php:390
+#: modules/providers/digital/action.php:424
+#: modules/providers/digital/action.php:476
+#: modules/providers/wasabi/action.php:167
+#: modules/providers/wasabi/action.php:194
+#: modules/providers/wasabi/action.php:230
+#: modules/providers/wasabi/action.php:263
+#: modules/providers/wasabi/action.php:315
+#: modules/providers/wasabi/action.php:392
+#: modules/providers/wasabi/action.php:426
+#: modules/providers/wasabi/action.php:478
+msgid "No bucket name provided."
+msgstr "没有水桶名提供的。"
+
+#: modules/providers/bunny/action.php:353
+msgid "No Storage name provided."
+msgstr "没有储存的姓名提供的。"
+
+#: templates/settings/include/export.php:8
+msgid "Not found any media..."
+msgstr "找不到任何媒体..."
+
+#: utilities/admin.php:1016
+msgid "Not found any process"
+msgstr "找不到任何过程"
+
+#: modules/compatiblility.php:610 modules/compatiblility.php:621
+msgid "Offload - Next3"
+msgstr "卸载-Next3"
+
+#: templates/settings/include/tools.php:192
+msgid "Offload files:"
+msgstr "卸载的文件："
+
+#: templates/settings/include/settings.php:119
+msgid "Offload Media"
+msgstr "卸载的媒体"
+
+#: templates/settings/include/tools.php:83
+msgid "Offload Now"
+msgstr "现在卸载"
+
+#: templates/settings/include/tools.php:98
+msgid "Offload now!"
+msgstr "卸载，现在！"
+
+#: utilities/admin.php:1020
+msgid "Offload process has been pause"
+msgstr "卸载过程已经暂停"
+
+#: templates/settings/include/settings.php:334
+msgid "Offload Settings"
+msgstr "卸载设置"
+
+#: templates/settings/include/tools.php:76
+msgid "Offload your Existing Media Library"
+msgstr "卸载的现有的媒体图书馆"
+
+#: templates/settings/include/settings.php:242
+msgid "Offload {multiple mime types} format to cloud"
+msgstr ""
+
+#: functions.php:123 functions.php:202 functions.php:272 functions.php:342
+#: functions.php:417
+msgid "Other"
+msgstr "其他的"
+
+#: functions.php:601
+msgctxt "Path to file in bucket"
+msgid "Path"
+msgstr "路径"
+
+#: modules/compatiblility.php:678
+msgid "Path:"
+msgstr "路径："
+
+#: utilities/admin.php:386
+msgid "Please activate your license."
+msgstr "请启动您的许可！"
+
+#: templates/settings/dashboard.php:34
+msgid "Please active your license "
+msgstr "请活动的许可证 "
+
+#: utilities/admin.php:406
+msgid "Please choose prodiver and enter valid credentails."
+msgstr "请选择prodiver和输入有效的credentails."
+
+#: templates/settings/include/tools.php:12
+msgid "Please select any buckets..."
+msgstr "请选择的任何桶..."
+
+#: templates/settings/include/export.php:5
+msgid "Please select buckets..."
+msgstr "请选择桶..."
+
+#: templates/settings/include/export.php:11
+msgid "Please select type for export media..."
+msgstr "请选择类型的出口媒体..."
+
+#: functions.php:604 templates/settings/include/settings.php:79
+msgid "Preview URL"
+msgstr "的预览URL"
+
+#: modules/compatiblility.php:757
+msgid "Preview:"
+msgstr "预览："
+
+#: templates/step/config.php:31 templates/settings/include/settings.php:33
+msgid "Provider"
+msgstr "供应商"
+
+#: modules/compatiblility.php:838
+msgid "Provider Info"
+msgstr "提供信息"
+
+#: templates/settings/include/settings.php:209
+msgid ""
+"Provides another level of organization within the bucket by including the "
+"year & month in which the file was uploaded to the site."
+msgstr "提供了另一个级别的组织内斗，通过包括年&月在该文件上传到网站上。"
+
+#: templates/step/config.php:53 templates/step/config.php:127
+msgid "Region"
+msgstr "区域"
+
+#: modules/compatiblility.php:660 modules/compatiblility.php:739
+msgid "Region:"
+msgstr "地区："
+
+#: templates/step/config.php:96
+msgid "Remove all Files from this Bucket"
+msgstr "删除所有的文件，从这个桶"
+
+#: templates/settings/include/settings.php:314
+msgid "Remove Files from Cloud"
+msgstr "删除的文件，从云"
+
+#: modules/compatiblility.php:783
+msgid "Remove Files From Server:"
+msgstr "删除的文件服务器："
+
+#: templates/settings/include/settings.php:295
+msgid "Remove Local Media"
+msgstr "除当地的媒体"
+
+#: templates/settings/include/tools.php:201
+#: templates/settings/include/tools.php:210
+msgid "Reset"
+msgstr "重置"
+
+#: templates/settings/include/tools.php:198
+msgid "Reset Credentials"
+msgstr "重凭证"
+
+#: templates/settings/include/tools.php:207
+msgid "Reset Settings"
+msgstr "重置的设置"
+
+#: templates/settings/include/delivery.php:84
+msgid "Rewrite Media URLs or Deliver Offloaded Media"
+msgstr "重写媒体的网址或卸载提供媒体"
+
+#: templates/step/config.php:121
+msgid "Save Bucket Settings"
+msgstr "保存桶设置"
+
+#: templates/step/config.php:166 templates/settings/include/delivery.php:147
+#: templates/settings/include/settings.php:373
+msgid "Save Settings"
+msgstr "保存的设置"
+
+#: functions.php:163
+msgid "Secret Access Key"
+msgstr "秘密的访问密钥"
+
+#: functions.php:241 functions.php:311
+msgid "Secret Key"
+msgstr "秘密的关键"
+
+#: templates/settings/include/export.php:88
+msgid "Select [.json] file to upload into AWS S3 Bucket."
+msgstr ""
+
+#: templates/settings/include/export.php:36
+#: templates/settings/include/export.php:99
+msgid "Select any bucket"
+msgstr "选择任何桶"
+
+#: templates/settings/include/settings.php:262
+msgid "Select Files Extension"
+msgstr "选择文件的扩展"
+
+#: templates/settings/include/delivery.php:22
+msgid "Select Provider"
+msgstr "选择供应商"
+
+#: templates/settings/include/export.php:68
+msgid "Select Type"
+msgstr "选择类型"
+
+#: templates/settings/include/delivery.php:95
+msgid ""
+"Serves offloaded media files by rewriting local URLs so that they point to "
+"Cloud"
+msgstr "供应卸载的媒体文件，通过改写本地网址，以便他们指向云"
+
+#: templates/settings/include/settings.php:360
+msgid "Set up number of Paged"
+msgstr "设立数量的呼"
+
+#: utilities/admin.php:80 utilities/admin.php:761
+msgid "Setup"
+msgstr "设置"
+
+#: templates/settings/include/settings.php:161
+msgid "Setup Path"
+msgstr "设置路径"
+
+#: templates/settings/include/settings.php:346
+msgid "Setup your offload limit. [Max value: 20,000]"
+msgstr ""
+
+#: utilities/check/valid.php:39
+msgid "Something went wrong"
+msgstr "事了"
+
+#: templates/step/config.php:175
+msgid "Sorry! your credentails is wrong."
+msgstr "对不起！ 你credentails是错误的。"
+
+#: utilities/admin.php:414
+msgid "Error! Access keys in wp-config.php are not defined."
+msgstr "对不起!! 不是定义问钥匙wp-config.php"
+
+#: utilities/admin.php:423
+msgid "Error! .json file path is not defined."
+msgstr "对不起!! 请定义。json文件路径"
+
+#: utilities/admin.php:431 utilities/admin.php:460
+msgid "Error! Bunny CDN API key or password is missing."
+msgstr "对不起!! 请输入兔子API密钥和密码。"
+
+#: utilities/admin.php:452
+msgid "Error! .json file path is not defined."
+msgstr "对不起!! 请输入java"
+
+#: utilities/admin.php:469
+msgid "Sorry!! please enter your credentails data"
+msgstr "对不起!! 请输入您的credentails数据"
+
+#: utilities/admin.php:440
+msgid "Sorry!! please enter your valid credentails."
+msgstr "对不起!! 请输入您的有效credentails."
+
+#: utilities/admin.php:990
+msgid "Sorry!!! please active license"
+msgstr "对不起!!! 请活动的许可证"
+
+#: utilities/admin.php:985
+msgid "Sorry!!! Trial mode enable"
+msgstr "对不起!!! 审判模式的启用"
+
+#: functions.php:236
+msgid "Spaces Access Key"
+msgstr "空间访问的关键"
+
+#: utilities/admin.php:486
+msgid "Your bucket and region are not defined."
+msgstr "Steup你的水桶和区域"
+
+#: utilities/admin.php:491
+msgid "Your storage and region are not defined."
+msgstr "Steup你的储存和地区"
+
+#: utilities/admin.php:90 templates/step/config.php:145
+msgid "Storage"
+msgstr "储存"
+
+#: templates/settings/include/settings.php:62
+msgid "Storage Name"
+msgstr "存储的名字"
+
+#: functions.php:598
+msgctxt "Storage provider key name"
+msgid "Storage Provider"
+msgstr "储存供应商"
+
+#: functions.php:599
+msgctxt "Storage provider name"
+msgid "Storage Provider"
+msgstr "储存供应商"
+
+#: modules/compatiblility.php:653 modules/compatiblility.php:731
+msgid "Storage Provider:"
+msgstr "储存供应商："
+
+#: templates/settings/dashboard.php:10 templates/settings/dashboard.php:43
+msgid "Storage Settings"
+msgstr "存储设置"
+
+#: functions.php:154 functions.php:232 functions.php:302 functions.php:371
+#: functions.php:445
+msgid ""
+"Storing your access keys in the database is less secure than the options "
+"above, but if you're ok with that, go ahead and enter your keys in the form "
+"below."
+msgstr "保存你的访问键数据库中的安全性低于上述选项，但是如果你确定的是，继续和进入你的钥匙在下面的表格。"
+
+#: modules/providers/bunny/action.php:239
+msgid "Successfully Deleted this file"
+msgstr "成功删除这个文件"
+
+#: templates/settings/include/tools.php:9
+msgid "Successfully reset credentials..."
+msgstr "成功地重凭证..."
+
+#: templates/settings/include/tools.php:6
+msgid "Successfully reset plugin settings..."
+msgstr "成功地重插件设置..."
+
+#: utilities/admin.php:774
+msgid "Support"
+msgstr "支持"
+
+#. Author of the plugin
+msgid "ThemeDev"
+msgstr "ThemeDev"
+
+#: templates/step/license.php:6
+msgid "ThemeDev Account"
+msgstr "ThemeDev帐户"
+
+#: modules/providers/aws/action.php:182 modules/providers/bunny/action.php:182
+#: modules/providers/digital/action.php:180
+#: modules/providers/wasabi/action.php:183
+#, php-format
+msgid ""
+"There was an error attempting to check the permissions of the bucket %s: %s"
+msgstr "有一个错误的尝试，以检查权限的斗%s%s"
+
+#: modules/providers/aws/action.php:178 modules/providers/bunny/action.php:177
+#: modules/providers/digital/action.php:176
+#: modules/providers/wasabi/action.php:179
+msgid ""
+"This is a test file to check if the user has write permission to the bucket. "
+"Delete me if found."
+msgstr "这是一个测试文件，以检查户已经写入权限。 删除我，如果发现。"
+
+#: templates/step/license.php:16
+msgid "This license work only for 10 days."
+msgstr "这个许可证工作只有10天。"
+
+#: templates/settings/include/tools.php:209
+msgid "This tool will delete all the plugin settings of Next3 Offload"
+msgstr "这个工具将删除所有的插件设置的Next3卸载"
+
+#: templates/settings/include/tools.php:200
+msgid "This tool will remove provider credentials of Next3 Offload"
+msgstr "这个工具将删除提供商提供凭证的Next3卸载"
+
+#: utilities/admin.php:95 templates/settings/dashboard.php:12
+#: templates/settings/dashboard.php:66
+msgid "Tools"
+msgstr "工具"
+
+#: templates/settings/dashboard.php:35
+msgid "Trial Mode is enabled. You can only view it on Trial Mode."
+msgstr "审判模式的启用。 只有你可以查看的模式。"
+
+#: templates/settings/include/tools.php:193
+msgid "Unclean files:"
+msgstr "不洁净的文件："
+
+#: templates/amazon/file-manager.php:4
+msgid "Upload File"
+msgstr "上传文件"
+
+#: templates/settings/include/export.php:71
+msgid "Uploaded AWS"
+msgstr "上传AWS"
+
+#: modules/compatiblility.php:839
+msgid "Uploaded to"
+msgstr "上传到"
+
+#: modules/compatiblility.php:687
+msgid "Uploaded via:"
+msgstr "上载的通过："
+
+#: utilities/admin.php:773
+msgid "User Guideline"
+msgstr "用户指南"
+
+#: templates/settings/include/delivery.php:114
+msgid ""
+"Uses HTTPS for every offloaded media item instead of using the scheme of the "
+"current page."
+msgstr "使用HTTPS每个卸载媒体项目，而不是使用该方案目前的网页。"
+
+#: templates/settings/dashboard.php:30
+msgid "Version: "
+msgstr "版本： "
+
+#: functions.php:250 functions.php:256
+msgid "Wasabi Cloud"
+msgstr "芥末云"
+
+#: templates/settings/include/settings.php:82
+msgid ""
+"When a media URL is rewritten, it will use the following structure based on "
+"the current Storage and Delivery Settings:"
+msgstr "当一个媒体网址是重写，它将使用以下结构的基础上目前存储和交付设置："
+
+#: functions.php:605
+msgctxt "Whether or not metadata has been verified"
+msgid "Verified"
+msgstr "验证"
+
+#: templates/settings/include/tools.php:18
+msgid "WP Upload process running..."
+msgstr "WP上传运行的过程..."
+
+#: templates/step/config.php:88
+msgid "Warning: Block All Public Access setting is currently enabled."
+msgstr "Wraning：阻止所有的公共访问的是目前启用。"
+
+#: utilities/admin.php:499
+msgid ""
+"Warning: Block All Public Access setting is currently enabled. Need to permission, "
+"first!"
+msgstr "Wraning：阻止所有的公共访问的是目前启用。 需要的权限，第一次！"
+
+#: utilities/admin.php:507
+msgid ""
+"Wraning: File upload permission disabled. Please change bucket or Manual "
+"give to permission login with Provider panel."
+msgstr "Wraning：文件上载权限的残疾人。 请改变桶或手册得到许可登录与供应商的小组。"
+
+#: templates/settings/include/tools.php:97
+msgid ""
+"You should have options to offload your existing media, both individually or "
+"multiple."
+msgstr "你应该有选择的卸载你出媒体，单独或多个。"
